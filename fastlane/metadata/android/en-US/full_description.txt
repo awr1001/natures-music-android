@@ -1,0 +1,11 @@
+Nature's Music lets you loop and mix calming nature and ambient sounds on your phone. Stack ocean waves with rain, add forest birds or city hum, and leave them playing while you sleep or work.
+
+Features:
+• Categories: Ocean, Rain, Forest, Storm, City, and Extra Sounds
+• Mix multiple loops at once with per-sound volume
+• Continues in the background via a media playback foreground service
+• Optional alarm with its own sound, using Android’s alarm clock APIs
+• Help screens with brief mixing tips
+• No ads, no accounts, no tracking, no Google Services
+
+Open source. Code is Apache-2.0; sounds and images are CC BY 4.0 (Aaron Roberts / App-O-Matic).

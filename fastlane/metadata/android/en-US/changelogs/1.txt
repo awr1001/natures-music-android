@@ -1,0 +1,2 @@
+Initial F-Droid-ready release (versionName 1.8).
+Nature sound mixer with categories, multi-loop mixing, background playback, and optional alarm.

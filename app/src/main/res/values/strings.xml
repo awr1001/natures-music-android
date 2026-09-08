@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Nature\'s Music</string>
+    <string name="playback_channel_name">Playing sounds</string>
+    <string name="playback_channel_desc">Shown while nature sounds are mixing in the background.</string>
+    <string name="alarm_channel_name">Alarm</string>
+    <string name="alarm_channel_desc">Wakes you at the time you set.</string>
+    <string name="playback_notification_title">Nature\'s Music</string>
+    <string name="playback_notification_text">Sounds are playing</string>
+    <string name="stop">Stop</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="snooze">Snooze</string>
+    <string name="alarm_stop">Alarm Stop</string>
+    <string name="alarm_notification_title">Alarm is On</string>
+</resources>
