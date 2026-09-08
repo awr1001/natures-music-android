@@ -25,7 +25,7 @@ Android app that loops and mixes nature sounds (ocean, rain, forest, storm, city
 
 ### Command line
 
-JDK 17+ is required. AGP 8.9.2 expects **Gradle 8.11.1** (already pinned in the wrapper).
+JDK 17+ is required. AGP 8.9.2; Gradle wrapper is pinned to **9.3.0** (`gradle/wrapper/gradle-wrapper.properties`).
 
 ```bash
 ./gradlew :app:assembleRelease

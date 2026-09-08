@@ -42,7 +42,7 @@ import com.aaronroberts.naturesmusic.ui.theme.Ink
 private const val DemoYouTubeUrl = "https://www.youtube.com/watch?v=hut-tR-XoO0"
 
 /** One help section: iOS order is bullet text, then optional screenshot crop. */
-private data class HelpSection(
+data class HelpSection(
     val bullet: String,
     val imageResId: Int? = null,
 )
