@@ -61,9 +61,13 @@ class AlarmSchedulerTest {
 
     @Test
     fun backupWithinGraceSchedulesOneSecondFromNow() {
-        val now = cal(2026, Calendar.AUGUST, 29, 22, 31, 20)
+        // Picker is aligned to :00, so any gap under 60s is still the same displayed
+        // minute (covered above). The grace window only matters once the clock has
+        // rolled into the next minute: 22:31:00 is 60s after a 22:30 picker.
+        val now = cal(2026, Calendar.AUGUST, 29, 22, 31, 0)
         val picker = cal(2026, Calendar.AUGUST, 29, 22, 30, 0)
         val delta = now.timeInMillis - picker.timeInMillis
+        assertTrue(now.get(Calendar.MINUTE) != picker.get(Calendar.MINUTE))
         assertTrue(delta <= AlarmScheduler.SAME_MINUTE_GRACE_MS)
         assertEquals(
             now.timeInMillis + 1_000L,
