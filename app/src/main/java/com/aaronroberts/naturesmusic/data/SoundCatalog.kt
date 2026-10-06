@@ -1,27 +1,28 @@
 package com.aaronroberts.naturesmusic.data
 
 import androidx.annotation.DrawableRes
+import androidx.annotation.StringRes
 import androidx.annotation.RawRes
 import com.aaronroberts.naturesmusic.R
 
 enum class SoundCategory(
     val id: String,
-    val title: String,
+    @StringRes val titleRes: Int,
     @DrawableRes val imageRes: Int,
 ) {
-    OCEAN("ocean", "Ocean Sound", R.drawable.category_ocean),
-    LAKE("lake", "Lake Sound", R.drawable.category_lake),
-    RIVER("river", "River Sound", R.drawable.category_river),
-    STORM("storm", "Storm Sound", R.drawable.category_storm),
-    CITY("city", "City Sound", R.drawable.category_city),
-    EXTRA("extra", "Extra Sounds", R.drawable.category_extra),
+    OCEAN("ocean", R.string.category_ocean, R.drawable.category_ocean),
+    LAKE("lake", R.string.category_lake, R.drawable.category_lake),
+    RIVER("river", R.string.category_river, R.drawable.category_river),
+    STORM("storm", R.string.category_storm, R.drawable.category_storm),
+    CITY("city", R.string.category_city, R.drawable.category_city),
+    EXTRA("extra", R.string.category_extra, R.drawable.category_extra),
 }
 
 enum class PlayStyle { Loop, Random, LoopAndRandom }
 
 data class SoundTrack(
     val id: String,
-    val displayName: String,
+    @StringRes val displayNameRes: Int,
     val category: SoundCategory,
     @RawRes val rawResIds: List<Int>,
     val style: PlayStyle,
@@ -117,49 +118,49 @@ object SoundCatalog {
     )
 
     val tracks: List<SoundTrack> = listOf(
-        SoundTrack("ocean_wind", "Wind", SoundCategory.OCEAN, listOf(R.raw.wind8), PlayStyle.Loop),
-        SoundTrack("ocean_seagulls", "Seagulls", SoundCategory.OCEAN, oceanSeagulls, PlayStyle.Random, defaultDelaySeconds = 10),
-        SoundTrack("ocean_waves_a", "Waves A", SoundCategory.OCEAN, listOf(R.raw.owaves1), PlayStyle.Loop),
-        SoundTrack("ocean_waves_b", "Waves B", SoundCategory.OCEAN, listOf(R.raw.owaves2), PlayStyle.Loop),
-        SoundTrack("ocean_waves_c", "Waves C", SoundCategory.OCEAN, listOf(R.raw.owaves3), PlayStyle.Loop),
-        SoundTrack("ocean_waves_d", "Waves D", SoundCategory.OCEAN, listOf(R.raw.owaves4), PlayStyle.Loop),
+        SoundTrack("ocean_wind", R.string.sound_wind, SoundCategory.OCEAN, listOf(R.raw.wind8), PlayStyle.Loop),
+        SoundTrack("ocean_seagulls", R.string.sound_seagulls, SoundCategory.OCEAN, oceanSeagulls, PlayStyle.Random, defaultDelaySeconds = 10),
+        SoundTrack("ocean_waves_a", R.string.sound_waves_a, SoundCategory.OCEAN, listOf(R.raw.owaves1), PlayStyle.Loop),
+        SoundTrack("ocean_waves_b", R.string.sound_waves_b, SoundCategory.OCEAN, listOf(R.raw.owaves2), PlayStyle.Loop),
+        SoundTrack("ocean_waves_c", R.string.sound_waves_c, SoundCategory.OCEAN, listOf(R.raw.owaves3), PlayStyle.Loop),
+        SoundTrack("ocean_waves_d", R.string.sound_waves_d, SoundCategory.OCEAN, listOf(R.raw.owaves4), PlayStyle.Loop),
 
-        SoundTrack("lake_wind", "Wind", SoundCategory.LAKE, listOf(R.raw.swindb), PlayStyle.Loop),
-        SoundTrack("lake_birds", "Birds", SoundCategory.LAKE, lakeBirds, PlayStyle.Random, defaultDelaySeconds = 10),
-        SoundTrack("lake_loons", "Loons", SoundCategory.LAKE, lakeLoons, PlayStyle.Random, defaultDelaySeconds = 10),
-        SoundTrack("lake_waves_a", "Waves A", SoundCategory.LAKE, lakeWavesA, PlayStyle.Random, defaultDelaySeconds = 10),
-        SoundTrack("lake_waves_b", "Waves B", SoundCategory.LAKE, lakeWavesB, PlayStyle.Random, defaultDelaySeconds = 6),
-        SoundTrack("lake_waves_c", "Waves C", SoundCategory.LAKE, lakeWavesC, PlayStyle.Random, defaultDelaySeconds = 10),
+        SoundTrack("lake_wind", R.string.sound_wind, SoundCategory.LAKE, listOf(R.raw.swindb), PlayStyle.Loop),
+        SoundTrack("lake_birds", R.string.sound_birds, SoundCategory.LAKE, lakeBirds, PlayStyle.Random, defaultDelaySeconds = 10),
+        SoundTrack("lake_loons", R.string.sound_loons, SoundCategory.LAKE, lakeLoons, PlayStyle.Random, defaultDelaySeconds = 10),
+        SoundTrack("lake_waves_a", R.string.sound_waves_a, SoundCategory.LAKE, lakeWavesA, PlayStyle.Random, defaultDelaySeconds = 10),
+        SoundTrack("lake_waves_b", R.string.sound_waves_b, SoundCategory.LAKE, lakeWavesB, PlayStyle.Random, defaultDelaySeconds = 6),
+        SoundTrack("lake_waves_c", R.string.sound_waves_c, SoundCategory.LAKE, lakeWavesC, PlayStyle.Random, defaultDelaySeconds = 10),
 
-        SoundTrack("river_a", "River A", SoundCategory.RIVER, listOf(R.raw.river1), PlayStyle.Loop),
-        SoundTrack("river_b", "River B", SoundCategory.RIVER, listOf(R.raw.river2), PlayStyle.Loop),
-        SoundTrack("river_c", "River C", SoundCategory.RIVER, listOf(R.raw.river3), PlayStyle.Loop),
+        SoundTrack("river_a", R.string.sound_river_a, SoundCategory.RIVER, listOf(R.raw.river1), PlayStyle.Loop),
+        SoundTrack("river_b", R.string.sound_river_b, SoundCategory.RIVER, listOf(R.raw.river2), PlayStyle.Loop),
+        SoundTrack("river_c", R.string.sound_river_c, SoundCategory.RIVER, listOf(R.raw.river3), PlayStyle.Loop),
 
-        SoundTrack("rain_a", "Rain A", SoundCategory.STORM, listOf(R.raw.rain1), PlayStyle.Loop),
-        SoundTrack("rain_b", "Rain B", SoundCategory.STORM, listOf(R.raw.rain2), PlayStyle.Loop),
-        SoundTrack("rain_c", "Rain C", SoundCategory.STORM, listOf(R.raw.rain3), PlayStyle.Loop),
-        SoundTrack("thunder_a", "Thunder A", SoundCategory.STORM, thunderA, PlayStyle.Random, defaultDelaySeconds = 15),
-        SoundTrack("thunder_b", "Thunder B", SoundCategory.STORM, thunderB, PlayStyle.Random, defaultDelaySeconds = 22),
+        SoundTrack("rain_a", R.string.sound_rain_a, SoundCategory.STORM, listOf(R.raw.rain1), PlayStyle.Loop),
+        SoundTrack("rain_b", R.string.sound_rain_b, SoundCategory.STORM, listOf(R.raw.rain2), PlayStyle.Loop),
+        SoundTrack("rain_c", R.string.sound_rain_c, SoundCategory.STORM, listOf(R.raw.rain3), PlayStyle.Loop),
+        SoundTrack("thunder_a", R.string.sound_thunder_a, SoundCategory.STORM, thunderA, PlayStyle.Random, defaultDelaySeconds = 15),
+        SoundTrack("thunder_b", R.string.sound_thunder_b, SoundCategory.STORM, thunderB, PlayStyle.Random, defaultDelaySeconds = 22),
 
-        SoundTrack("city_a", "City A", SoundCategory.CITY, listOf(R.raw.city1), PlayStyle.Loop),
-        SoundTrack("traffic_a", "Traffic A", SoundCategory.CITY, listOf(R.raw.city2), PlayStyle.Loop),
-        SoundTrack("traffic_b", "Traffic B", SoundCategory.CITY, trafficB, PlayStyle.LoopAndRandom, defaultDelaySeconds = 20),
-        SoundTrack("trains", "Trains", SoundCategory.CITY, trains, PlayStyle.Random, defaultDelaySeconds = 60),
-        SoundTrack("industrial_a", "Industrial A", SoundCategory.CITY, listOf(R.raw.industrial), PlayStyle.Loop),
-        SoundTrack("industrial_b", "Industrial B", SoundCategory.CITY, listOf(R.raw.industrial2), PlayStyle.Loop),
-        SoundTrack("steampunk", "Steam Punk", SoundCategory.CITY, listOf(R.raw.steampunkmachine), PlayStyle.Loop),
+        SoundTrack("city_a", R.string.sound_city_a, SoundCategory.CITY, listOf(R.raw.city1), PlayStyle.Loop),
+        SoundTrack("traffic_a", R.string.sound_traffic_a, SoundCategory.CITY, listOf(R.raw.city2), PlayStyle.Loop),
+        SoundTrack("traffic_b", R.string.sound_traffic_b, SoundCategory.CITY, trafficB, PlayStyle.LoopAndRandom, defaultDelaySeconds = 20),
+        SoundTrack("trains", R.string.sound_trains, SoundCategory.CITY, trains, PlayStyle.Random, defaultDelaySeconds = 60),
+        SoundTrack("industrial_a", R.string.sound_industrial_a, SoundCategory.CITY, listOf(R.raw.industrial), PlayStyle.Loop),
+        SoundTrack("industrial_b", R.string.sound_industrial_b, SoundCategory.CITY, listOf(R.raw.industrial2), PlayStyle.Loop),
+        SoundTrack("steampunk", R.string.sound_steam_punk, SoundCategory.CITY, listOf(R.raw.steampunkmachine), PlayStyle.Loop),
 
-        SoundTrack("campfire", "Campfire", SoundCategory.EXTRA, listOf(R.raw.campfire1), PlayStyle.Loop),
-        SoundTrack("crickets_a", "Crickets A", SoundCategory.EXTRA, listOf(R.raw.cricket1), PlayStyle.Loop),
-        SoundTrack("crickets_b", "Crickets B", SoundCategory.EXTRA, listOf(R.raw.crickets), PlayStyle.Loop),
-        SoundTrack("fly", "Fly", SoundCategory.EXTRA, flies, PlayStyle.Random, defaultDelaySeconds = 10),
-        SoundTrack("frogs", "Frogs", SoundCategory.EXTRA, listOf(R.raw.frogs), PlayStyle.Loop),
-        SoundTrack("bomber", "Bomber", SoundCategory.EXTRA, listOf(R.raw.bomber), PlayStyle.Loop),
+        SoundTrack("campfire", R.string.sound_campfire, SoundCategory.EXTRA, listOf(R.raw.campfire1), PlayStyle.Loop),
+        SoundTrack("crickets_a", R.string.sound_crickets_a, SoundCategory.EXTRA, listOf(R.raw.cricket1), PlayStyle.Loop),
+        SoundTrack("crickets_b", R.string.sound_crickets_b, SoundCategory.EXTRA, listOf(R.raw.crickets), PlayStyle.Loop),
+        SoundTrack("fly", R.string.sound_fly, SoundCategory.EXTRA, flies, PlayStyle.Random, defaultDelaySeconds = 10),
+        SoundTrack("frogs", R.string.sound_frogs, SoundCategory.EXTRA, listOf(R.raw.frogs), PlayStyle.Loop),
+        SoundTrack("bomber", R.string.sound_bomber, SoundCategory.EXTRA, listOf(R.raw.bomber), PlayStyle.Loop),
     )
 
     val alarmBell = SoundTrack(
         id = "alarm_bell",
-        displayName = "Bell",
+        displayNameRes = R.string.sound_bell,
         category = SoundCategory.EXTRA,
         rawResIds = listOf(R.raw.alarm_bell),
         style = PlayStyle.Loop,

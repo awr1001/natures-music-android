@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Nature\'s Music</string>
+    <string name="playback_channel_name">Reproduciendo sonidos</string>
+    <string name="playback_channel_desc">Se muestra mientras los sonidos de la naturaleza se mezclan en segundo plano.</string>
+    <string name="alarm_channel_name">Alarma</string>
+    <string name="alarm_channel_desc">Te despierta a la hora que configures.</string>
+    <string name="playback_notification_title">Nature\'s Music</string>
+    <string name="playback_notification_text">Los sonidos se están reproduciendo</string>
+    <string name="stop">Detener</string>
+    <string name="dismiss">Descartar</string>
+    <string name="snooze">Posponer</string>
+    <string name="alarm_stop">Detener alarma</string>
+    <string name="alarm_notification_title">Alarma activada</string>
+
+    <!-- Categories -->
+    <string name="category_ocean">Sonido del océano</string>
+    <string name="category_lake">Sonido del lago</string>
+    <string name="category_river">Sonido del río</string>
+    <string name="category_storm">Sonido de tormenta</string>
+    <string name="category_city">Sonido de la ciudad</string>
+    <string name="category_extra">Sonidos extra</string>
+    <!-- Sounds -->
+    <string name="sound_wind">Viento</string>
+    <string name="sound_seagulls">Gaviotas</string>
+    <string name="sound_waves_a">Olas A</string>
+    <string name="sound_waves_b">Olas B</string>
+    <string name="sound_waves_c">Olas C</string>
+    <string name="sound_waves_d">Olas D</string>
+    <string name="sound_birds">Aves</string>
+    <string name="sound_loons">Colimbos</string>
+    <string name="sound_river_a">Río A</string>
+    <string name="sound_river_b">Río B</string>
+    <string name="sound_river_c">Río C</string>
+    <string name="sound_rain_a">Lluvia A</string>
+    <string name="sound_rain_b">Lluvia B</string>
+    <string name="sound_rain_c">Lluvia C</string>
+    <string name="sound_thunder_a">Trueno A</string>
+    <string name="sound_thunder_b">Trueno B</string>
+    <string name="sound_city_a">Ciudad A</string>
+    <string name="sound_traffic_a">Tráfico A</string>
+    <string name="sound_traffic_b">Tráfico B</string>
+    <string name="sound_trains">Trenes</string>
+    <string name="sound_industrial_a">Industrial A</string>
+    <string name="sound_industrial_b">Industrial B</string>
+    <string name="sound_steam_punk">Steampunk</string>
+    <string name="sound_campfire">Hoguera</string>
+    <string name="sound_crickets_a">Grillos A</string>
+    <string name="sound_crickets_b">Grillos B</string>
+    <string name="sound_fly">Mosca</string>
+    <string name="sound_frogs">Ranas</string>
+    <string name="sound_bomber">Bombardero</string>
+    <string name="sound_bell">Campana</string>
+    <!-- Screens and buttons -->
+    <string name="alarm">Alarma</string>
+    <string name="timer">Temporizador</string>
+    <string name="stop_all_sounds">Detener todos los sonidos</string>
+    <string name="main_menu">Menú principal</string>
+    <string name="default_setting">Ajuste predeterminado</string>
+    <string name="pause">Pausa</string>
+    <string name="start">Iniciar</string>
+    <string name="reset">Restablecer</string>
+    <string name="delete">Eliminar</string>
+    <string name="set_alarm">Configurar alarma</string>
+    <string name="play">Reproducir</string>
+    <string name="starting">Iniciando…</string>
+    <string name="try_again">Reintentar</string>
+    <string name="other_sounds_in_mix">Otros sonidos siguen en la mezcla.</string>
+    <string name="current_time">Hora actual</string>
+    <string name="alarm_time">Hora de la alarma</string>
+    <string name="empty_mix_message">Inicia los sonidos con los que quieres despertarte y luego configura la alarma.</string>
+    <string name="alarm_active">Alarma activa</string>
+    <string name="snoozed">Pospuesta...</string>
+    <string name="wheel_today">Hoy</string>
+    <string name="wheel_tomorrow">Mañana</string>
+    <string name="wheel_am">a. m.</string>
+    <string name="wheel_pm">p. m.</string>
+    <string name="your_mix">Tu mezcla</string>
+    <string name="error_couldnt_start">No se pudo iniciar este sonido</string>
+    <string name="help_return">Volver</string>
+    <!-- Formatted labels -->
+    <string name="volume_percent">Volumen  %1$d%%</string>
+    <string name="delay_seconds">Retardo  %1$d</string>
+    <string name="snooze_minutes">%1$d min.</string>
+    <string name="error_couldnt_start_code">No se pudo iniciar este sonido (%1$d/%2$d)</string>
+    <!-- Help -->
+    <string name="help_demo_video">* Se puede ver un video de demostración tocando el botón del enlace de YouTube de abajo *</string>
+    <string name="help_main_menu_title">Menú principal explicado</string>
+    <string name="help_main_menu_categories">Haz clic en el botón con el nombre de la categoría de sonido que quieres oír para mostrar las opciones de sonido.</string>
+    <string name="help_main_menu_stop_all">Haz clic en el botón \'Detener todos los sonidos\' para detener todos los sonidos que se reproducen en toda la app.</string>
+    <string name="help_sound_title">Ajustes de sonido explicados</string>
+    <string name="help_sound_play">Cada sonido se reproduce haciendo clic en el botón \'Reproducir\' correspondiente, con el nombre del sonido mostrado encima. El sonido se detiene haciendo clic en el mismo botón, que dice \'Detener\' mientras el mezclador está en reproducción.</string>
+    <string name="help_sound_volume">Ajusta el volumen de cada sonido moviendo el control deslizante a la izquierda o a la derecha.</string>
+    <string name="help_sound_delay">Algunos sonidos ofrecen opciones de intervalo de volumen y de retardo. Al mover el control de retardo a la izquierda o a la derecha se define una selección aleatoria de archivos de sonido cortos que se reproducirán con un retardo, en segundos, que tú eliges.</string>
+    <string name="help_sound_default">Haz clic en el botón \'Ajuste predeterminado\' para reproducir un conjunto de sonidos sugerido con los ajustes recomendados.</string>
+    <string name="help_sound_stop_all">Al hacer clic en el botón \'Detener todos los sonidos\' en la parte superior de la pantalla se detienen todos los sonidos que se reproducen en la categoría de sonido.</string>
+    <string name="help_alarm_title">Controles de la alarma explicados</string>
+    <string name="help_alarm_current_time">La etiqueta \'Hora actual\' te muestra la hora presente.</string>
+    <string name="help_alarm_set">Para configurar la alarma: 1 Reproduce todos los sonidos que quieres oír con el volumen y el retardo deseados. 2 Luego selecciona la hora y la fecha de la alarma con la \'Rueda de hora y fecha\' en la parte inferior de la pantalla. 3 Haz clic en el botón \'Configurar alarma\'. Los sonidos se detendrán y la hora de alarma que configuraste se mostrará en la etiqueta \'Hora de la alarma\'. Los sonidos y los ajustes se guardan y se reproducen cuando llega la hora de la alarma.</string>
+    <string name="help_alarm_snooze">Al hacer clic en el \'Botón Posponer\' se silencia temporalmente la alarma. La alarma volverá cuando termine el tiempo de posposición seleccionado.</string>
+    <string name="help_alarm_alarm_time">La etiqueta \'Hora de la alarma\' mostrará la hora de alarma seleccionada. Al hacer clic en la etiqueta se detienen los sonidos de la alarma y la función de alarma.</string>
+    <string name="help_alarm_wheel">La \'Rueda de hora y fecha\' se usa para seleccionar la fecha y la hora de la alarma antes de hacer clic en \'Configurar alarma\'.</string>
+    <string name="help_timer_title">Controles del temporizador explicados</string>
+    <string name="help_timer_keypad">Usa las teclas numéricas del teclado para introducir el tiempo desde el que quieres que el temporizador cuente hacia atrás.</string>
+    <string name="help_timer_delete">Usa el botón \'Eliminar\' para borrar números.</string>
+    <string name="help_timer_controls">Haz clic en el botón \'Iniciar\' para iniciar el temporizador. Cuando el temporizador llegue a cero, se detendrán todos los sonidos. El botón \'Pausa\' detiene el temporizador y se puede reanudar haciendo clic de nuevo en \'Iniciar\'. Haz clic en el botón \'Restablecer\' para borrar el tiempo.</string>
+</resources>

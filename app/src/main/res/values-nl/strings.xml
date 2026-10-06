@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Nature\'s Music</string>
+    <string name="playback_channel_name">Geluiden afspelen</string>
+    <string name="playback_channel_desc">Zichtbaar terwijl natuurgeluiden op de achtergrond worden gemixt.</string>
+    <string name="alarm_channel_name">Wekker</string>
+    <string name="alarm_channel_desc">Maakt je wakker op het tijdstip dat je instelt.</string>
+    <string name="playback_notification_title">Nature\'s Music</string>
+    <string name="playback_notification_text">Geluiden worden afgespeeld</string>
+    <string name="stop">Stop</string>
+    <string name="dismiss">Sluiten</string>
+    <string name="snooze">Sluimeren</string>
+    <string name="alarm_stop">Wekker stoppen</string>
+    <string name="alarm_notification_title">Wekker staat aan</string>
+
+    <!-- Categories -->
+    <string name="category_ocean">Oceaangeluid</string>
+    <string name="category_lake">Meergeluid</string>
+    <string name="category_river">Riviergeluid</string>
+    <string name="category_storm">Stormgeluid</string>
+    <string name="category_city">Stadsgeluid</string>
+    <string name="category_extra">Extra geluiden</string>
+    <!-- Sounds -->
+    <string name="sound_wind">Wind</string>
+    <string name="sound_seagulls">Meeuwen</string>
+    <string name="sound_waves_a">Golven A</string>
+    <string name="sound_waves_b">Golven B</string>
+    <string name="sound_waves_c">Golven C</string>
+    <string name="sound_waves_d">Golven D</string>
+    <string name="sound_birds">Vogels</string>
+    <string name="sound_loons">Duikers</string>
+    <string name="sound_river_a">Rivier A</string>
+    <string name="sound_river_b">Rivier B</string>
+    <string name="sound_river_c">Rivier C</string>
+    <string name="sound_rain_a">Regen A</string>
+    <string name="sound_rain_b">Regen B</string>
+    <string name="sound_rain_c">Regen C</string>
+    <string name="sound_thunder_a">Donder A</string>
+    <string name="sound_thunder_b">Donder B</string>
+    <string name="sound_city_a">Stad A</string>
+    <string name="sound_traffic_a">Verkeer A</string>
+    <string name="sound_traffic_b">Verkeer B</string>
+    <string name="sound_trains">Treinen</string>
+    <string name="sound_industrial_a">Industrieel A</string>
+    <string name="sound_industrial_b">Industrieel B</string>
+    <string name="sound_steam_punk">Steampunk</string>
+    <string name="sound_campfire">Kampvuur</string>
+    <string name="sound_crickets_a">Krekels A</string>
+    <string name="sound_crickets_b">Krekels B</string>
+    <string name="sound_fly">Vlieg</string>
+    <string name="sound_frogs">Kikkers</string>
+    <string name="sound_bomber">Bommenwerper</string>
+    <string name="sound_bell">Bel</string>
+    <!-- Screens and buttons -->
+    <string name="alarm">Wekker</string>
+    <string name="timer">Timer</string>
+    <string name="stop_all_sounds">Alle geluiden stoppen</string>
+    <string name="main_menu">Hoofdmenu</string>
+    <string name="default_setting">Standaardinstelling</string>
+    <string name="pause">Pauze</string>
+    <string name="start">Start</string>
+    <string name="reset">Opnieuw instellen</string>
+    <string name="delete">Verwijderen</string>
+    <string name="set_alarm">Wekker instellen</string>
+    <string name="play">Afspelen</string>
+    <string name="starting">Starten…</string>
+    <string name="try_again">Opnieuw</string>
+    <string name="other_sounds_in_mix">Andere geluiden zitten nog in de mix.</string>
+    <string name="current_time">Huidige tijd</string>
+    <string name="alarm_time">Wekkertijd</string>
+    <string name="empty_mix_message">Start de geluiden waarop je wilt wakker worden en stel daarna de wekker in.</string>
+    <string name="alarm_active">Wekker actief</string>
+    <string name="snoozed">Gesluimerd...</string>
+    <string name="wheel_today">Vandaag</string>
+    <string name="wheel_tomorrow">Morgen</string>
+    <string name="wheel_am">a.m.</string>
+    <string name="wheel_pm">p.m.</string>
+    <string name="your_mix">Je mix</string>
+    <string name="error_couldnt_start">Dit geluid kon niet worden gestart</string>
+    <string name="help_return">Terug</string>
+    <!-- Formatted labels -->
+    <string name="volume_percent">Volume  %1$d%%</string>
+    <string name="delay_seconds">Vertraging  %1$d</string>
+    <string name="snooze_minutes">%1$d min.</string>
+    <string name="error_couldnt_start_code">Dit geluid kon niet worden gestart (%1$d/%2$d)</string>
+    <!-- Help -->
+    <string name="help_demo_video">* Een demonstratievideo is te bekijken door hieronder op de YouTube-linkknop te tikken *</string>
+    <string name="help_main_menu_title">Hoofdmenu uitgelegd</string>
+    <string name="help_main_menu_categories">Klik op de knop met de naam van de geluidscategorie die je wilt horen om de geluidsopties te tonen.</string>
+    <string name="help_main_menu_stop_all">Klik op de knop \'Alle geluiden stoppen\' om alle geluiden in de hele app te stoppen.</string>
+    <string name="help_sound_title">Geluidsinstellingen uitgelegd</string>
+    <string name="help_sound_play">Elk geluid wordt afgespeeld door op de bijbehorende knop \'Afspelen\' te klikken, met de naam van het geluid erboven. Het geluid stopt door nogmaals op dezelfde knop te klikken; die toont \'Stop\' terwijl de mixer speelt.</string>
+    <string name="help_sound_volume">Pas het volume van elk geluid aan door de schuifregelaar naar links of rechts te bewegen.</string>
+    <string name="help_sound_delay">Sommige geluiden bieden opties voor volumebereik en vertragingsbereik. Als je de vertragingsschuif naar links of rechts beweegt, wordt een willekeurige selectie korte geluidsbestanden afgespeeld met een vertraging in seconden die jij kiest.</string>
+    <string name="help_sound_default">Klik op de knop \'Standaardinstelling\' om een voorgestelde set geluiden met de aanbevolen instellingen af te spelen.</string>
+    <string name="help_sound_stop_all">Als je bovenaan het scherm op de knop \'Alle geluiden stoppen\' klikt, stoppen alle geluiden die voor de geluidscategorie worden afgespeeld.</string>
+    <string name="help_alarm_title">Wekkerbediening uitgelegd</string>
+    <string name="help_alarm_current_time">Het label \'Huidige tijd\' toont je de huidige tijd.</string>
+    <string name="help_alarm_set">Zo stel je de wekker in: 1 Speel alle geluiden af die je wilt horen, met het gewenste volume en de gewenste vertraging. 2 Selecteer daarna de wekkertijd en de datum met het \'Tijd- en datumwiel\' onderaan het scherm. 3 Klik op de knop \'Wekker instellen\'. De geluiden stoppen en de wekkertijd die je hebt ingesteld verschijnt bij het label \'Wekkertijd\'. De geluiden en instellingen worden opgeslagen en opnieuw afgespeeld wanneer de wekkertijd aanbreekt.</string>
+    <string name="help_alarm_snooze">Als je op de \'Sluimerknop\' klikt, wordt de wekker tijdelijk stil. De wekker komt terug wanneer de gekozen sluimertijd is verstreken.</string>
+    <string name="help_alarm_alarm_time">Het label \'Wekkertijd\' toont de gekozen wekkertijd. Als je op het label klikt, stoppen de wekkergeluiden en de wekkerfunctie.</string>
+    <string name="help_alarm_wheel">Het \'Tijd- en datumwiel\' wordt gebruikt om de datum en tijd van de wekker te kiezen voordat je op \'Wekker instellen\' klikt.</string>
+    <string name="help_timer_title">Timerbediening uitgelegd</string>
+    <string name="help_timer_keypad">Gebruik de cijfertoetsen op het toetsenblok om de tijd in te voeren waarvan de timer moet aftellen.</string>
+    <string name="help_timer_delete">Gebruik de knop \'Verwijderen\' om cijfers te wissen.</string>
+    <string name="help_timer_controls">Klik op de knop \'Start\' om de timer te starten. Zodra de timer nul bereikt, worden alle geluiden gestopt. De knop \'Pauze\' stopt de timer; je kunt hem hervatten door opnieuw op \'Start\' te klikken. Klik op de knop \'Opnieuw instellen\' om de tijd te wissen.</string>
+</resources>

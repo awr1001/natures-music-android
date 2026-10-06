@@ -19,6 +19,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
@@ -26,6 +27,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.aaronroberts.naturesmusic.NaturesMusicApplication
+import com.aaronroberts.naturesmusic.R
 import com.aaronroberts.naturesmusic.ui.components.PillButton
 import com.aaronroberts.naturesmusic.ui.theme.AppGray
 import com.aaronroberts.naturesmusic.ui.theme.Ink
@@ -36,7 +38,7 @@ class AlarmRingingActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         val store = NaturesMusicApplication.instance.alarmStore
-        val sound = AlarmService.mixLabel(store.mix)
+        val sound = AlarmService.mixLabel(this, store.mix)
         setContent {
             NaturesMusicTheme {
                 val settings by store.settings.collectAsStateWithLifecycle()
@@ -83,7 +85,7 @@ private fun AlarmRingingScreen(
         verticalArrangement = Arrangement.Center,
     ) {
         Text(
-            text = "Alarm Active",
+            text = stringResource(R.string.alarm_active),
             color = Ink,
             fontSize = 28.sp,
             fontWeight = FontWeight.Bold,
@@ -110,8 +112,8 @@ private fun AlarmRingingScreen(
                 .fillMaxWidth()
                 .padding(top = 8.dp, bottom = 36.dp),
         )
-        PillButton(label = "Snooze", onClick = onSnooze)
+        PillButton(label = stringResource(R.string.snooze), onClick = onSnooze)
         Spacer(Modifier.height(12.dp))
-        PillButton(label = "Dismiss", onClick = onDismiss)
+        PillButton(label = stringResource(R.string.dismiss), onClick = onDismiss)
     }
 }

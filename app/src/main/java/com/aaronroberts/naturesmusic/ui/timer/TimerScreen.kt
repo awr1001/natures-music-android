@@ -22,6 +22,7 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.alpha
 import androidx.compose.ui.draw.clip
@@ -32,6 +33,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.aaronroberts.naturesmusic.NaturesMusicApplication
+import com.aaronroberts.naturesmusic.R
 import com.aaronroberts.naturesmusic.ui.components.CircleGlyphButton
 import com.aaronroberts.naturesmusic.ui.components.PillButton
 import com.aaronroberts.naturesmusic.ui.components.ScreenScaffold
@@ -52,7 +54,7 @@ fun TimerScreen(
     var showHelp by remember { mutableStateOf(false) }
 
     Box(modifier = modifier.fillMaxSize()) {
-        ScreenScaffold(title = "Timer", modifier = Modifier.fillMaxSize()) {
+        ScreenScaffold(title = stringResource(R.string.timer), modifier = Modifier.fillMaxSize()) {
             Row(
                 modifier = Modifier
                     .fillMaxWidth()
@@ -99,7 +101,7 @@ fun TimerScreen(
                             modifier = Modifier.weight(1f),
                         )
                         DigitButton(
-                            label = "Delete",
+                            label = stringResource(R.string.delete),
                             onClick = { store.deleteDigit() },
                             enabled = keypadEnabled,
                             modifier = Modifier.weight(2f),
@@ -108,11 +110,11 @@ fun TimerScreen(
                 }
                 Spacer(Modifier.height(4.dp))
                 if (state.running) {
-                    PillButton(label = "Pause", onClick = { store.pause() })
+                    PillButton(label = stringResource(R.string.pause), onClick = { store.pause() })
                 } else {
-                    PillButton(label = "Start", onClick = { store.start() })
+                    PillButton(label = stringResource(R.string.start), onClick = { store.start() })
                 }
-                PillButton(label = "Reset", onClick = { store.reset() })
+                PillButton(label = stringResource(R.string.reset), onClick = { store.reset() })
                 Spacer(Modifier.height(16.dp))
             }
         }

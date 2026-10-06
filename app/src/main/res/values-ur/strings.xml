@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Nature\'s Music</string>
+    <string name="playback_channel_name">آوازیں چل رہی ہیں</string>
+    <string name="playback_channel_desc">اس وقت دکھایا جاتا ہے جب فطرت کی آوازیں پس منظر میں مکس ہو رہی ہوں۔</string>
+    <string name="alarm_channel_name">الارم</string>
+    <string name="alarm_channel_desc">آپ کے مقرر کردہ وقت پر جگاता ہے۔</string>
+    <string name="playback_notification_title">Nature\'s Music</string>
+    <string name="playback_notification_text">آوازیں چل رہی ہیں</string>
+    <string name="stop">روکیں</string>
+    <string name="dismiss">مسترد</string>
+    <string name="snooze">اسنوز</string>
+    <string name="alarm_stop">الارم روکیں</string>
+    <string name="alarm_notification_title">الارم آن ہے</string>
+
+    <!-- Categories -->
+    <string name="category_ocean">سمندر کی آواز</string>
+    <string name="category_lake">جھیل کی آواز</string>
+    <string name="category_river">دریا کی آواز</string>
+    <string name="category_storm">طوفان کی آواز</string>
+    <string name="category_city">شہر کی آواز</string>
+    <string name="category_extra">اضافی آوازیں</string>
+    <!-- Sounds -->
+    <string name="sound_wind">ہوا</string>
+    <string name="sound_seagulls">سیگل</string>
+    <string name="sound_waves_a">لہریں A</string>
+    <string name="sound_waves_b">لہریں B</string>
+    <string name="sound_waves_c">لہریں C</string>
+    <string name="sound_waves_d">لہریں D</string>
+    <string name="sound_birds">پرندے</string>
+    <string name="sound_loons">لون</string>
+    <string name="sound_river_a">دریا A</string>
+    <string name="sound_river_b">دریا B</string>
+    <string name="sound_river_c">دریا C</string>
+    <string name="sound_rain_a">بارش A</string>
+    <string name="sound_rain_b">بارش B</string>
+    <string name="sound_rain_c">بارش C</string>
+    <string name="sound_thunder_a">گرج A</string>
+    <string name="sound_thunder_b">گرج B</string>
+    <string name="sound_city_a">شہر A</string>
+    <string name="sound_traffic_a">ٹریفک A</string>
+    <string name="sound_traffic_b">ٹریفک B</string>
+    <string name="sound_trains">ٹرینیں</string>
+    <string name="sound_industrial_a">صنعتی A</string>
+    <string name="sound_industrial_b">صنعتی B</string>
+    <string name="sound_steam_punk">اسٹیم پنک</string>
+    <string name="sound_campfire">الاؤ</string>
+    <string name="sound_crickets_a">جھینگر A</string>
+    <string name="sound_crickets_b">جھینگر B</string>
+    <string name="sound_fly">مکھی</string>
+    <string name="sound_frogs">مینڈک</string>
+    <string name="sound_bomber">بمبار</string>
+    <string name="sound_bell">گھنٹی</string>
+    <!-- Screens and buttons -->
+    <string name="alarm">الارم</string>
+    <string name="timer">ٹائمر</string>
+    <string name="stop_all_sounds">تمام آوازیں روکیں</string>
+    <string name="main_menu">مرکزی مینو</string>
+    <string name="default_setting">ڈیفالٹ ترتیب</string>
+    <string name="pause">توقف</string>
+    <string name="start">شروع</string>
+    <string name="reset">ری سیٹ</string>
+    <string name="delete">حذف کریں</string>
+    <string name="set_alarm">الارم سیٹ کریں</string>
+    <string name="play">چلائیں</string>
+    <string name="starting">شروع ہو رہا ہے…</string>
+    <string name="try_again">دوبارہ کوشش کریں</string>
+    <string name="other_sounds_in_mix">دوسری آوازیں ابھی بھی مکس میں ہیں۔</string>
+    <string name="current_time">موجودہ وقت</string>
+    <string name="alarm_time">الارم کا وقت</string>
+    <string name="empty_mix_message">وہ آوازیں شروع کریں جن کے ساتھ آپ جاگنا چاہتے ہیں، پھر الارم سیٹ کریں۔</string>
+    <string name="alarm_active">الارم فعال ہے</string>
+    <string name="snoozed">اسنوز...</string>
+    <string name="wheel_today">آج</string>
+    <string name="wheel_tomorrow">کل</string>
+    <string name="wheel_am">AM</string>
+    <string name="wheel_pm">PM</string>
+    <string name="your_mix">آپ کا مکس</string>
+    <string name="error_couldnt_start">یہ آواز شروع نہیں ہو سکی</string>
+    <string name="help_return">واپس</string>
+    <!-- Formatted labels -->
+    <string name="volume_percent">آواز  %1$d%%</string>
+    <string name="delay_seconds">تاخیر  %1$d</string>
+    <string name="snooze_minutes">%1$d منٹ</string>
+    <string name="error_couldnt_start_code">یہ آواز شروع نہیں ہو سکی (%1$d/%2$d)</string>
+    <!-- Help -->
+    <string name="help_demo_video">* نیچے YouTube لنک بٹن پر ٹیپ کر کے ایک مظاہرے کی ویڈیو دیکھی جا سکتی ہے *</string>
+    <string name="help_main_menu_title">مرکزی مینو کی وضاحت</string>
+    <string name="help_main_menu_categories">جس آواز کے زمرے کو آپ سننا چاہتے ہیں، اس نام کے بٹن پر کلک کریں تاکہ آواز کے اختیارات دکھائی دیں۔</string>
+    <string name="help_main_menu_stop_all">\'تمام آوازیں روکیں\' بٹن پر کلک کریں تاکہ پوری ایپ میں چلتی تمام آوازیں رک جائیں۔</string>
+    <string name="help_sound_title">آواز کی ترتیبات کی وضاحت</string>
+    <string name="help_sound_play">ہر آواز متعلقہ \'چلائیں\' بٹن پر کلک کرنے سے چلتی ہے، جس کے اوپر آواز کا نام ہوتا ہے۔ اسی بٹن پر دوبارہ کلک کرنے سے آواز رکتی ہے؛ مکسر چلتے وقت اس پر \'روکیں\' لکھا ہوتا ہے۔</string>
+    <string name="help_sound_volume">سلائیڈر کو بائیں یا دائیں لے جا کر ہر آواز کا سطح ایڈجسٹ کریں۔</string>
+    <string name="help_sound_delay">کچھ آوازوں میں آواز کی سطح کی حد اور تاخیر کی حد کے اختیارات ہوتے ہیں۔ تاخیر کا سلائیڈر بائیں یا دائیں کرنے سے مختصر آواز فائلوں کا ایک بے ترتیب انتخاب آپ کے منتخب کردہ سیکنڈ کی تاخیر پر چلے گا۔</string>
+    <string name="help_sound_default">\'ڈیفالٹ ترتیب\' بٹن پر کلک کریں تاکہ تجویز کردہ آوازیں تجویز کردہ ترتیبات پر چلیں۔</string>
+    <string name="help_sound_stop_all">اسکرین کے اوپر \'تمام آوازیں روکیں\' بٹن پر کلک کرنے سے اس آواز کے زمرے کی تمام چلتی آوازیں رک جائیں گی۔</string>
+    <string name="help_alarm_title">الارم کنٹرولز کی وضاحت</string>
+    <string name="help_alarm_current_time">\'موجودہ وقت\' کا لیبل آپ کو موجودہ وقت دکھا رہا ہے۔</string>
+    <string name="help_alarm_set">الارم سیٹ کرنے کے لیے: 1 وہ تمام آوازیں چلائیں جو آپ سننا چاہتے ہیں، مطلوبہ سطح اور تاخیر کے ساتھ۔ 2 پھر اسکرین کے نیچے \'وقت اور تاریخ کا پہیہ\' سے الارم کا وقت اور تاریخ منتخب کریں۔ 3 \'الارم سیٹ کریں\' بٹن پر کلک کریں۔ آوازیں رک جائیں گی اور آپ کا سیٹ کیا ہوا الارم وقت \'الارم کا وقت\' لیبل پر دکھے گا۔ آوازیں اور ترتیبات محفوظ ہوتی ہیں اور الارم کا وقت آنے پر دوبارہ چلتی ہیں۔</string>
+    <string name="help_alarm_snooze">\'اسنوز بٹن\' پر کلک کرنے سے الارم عارضی طور پر خاموش ہو جائے گا۔ منتخب اسنوز وقت ختم ہونے پر الارم واپس آئے گا۔</string>
+    <string name="help_alarm_alarm_time">\'الارم کا وقت\' کا لیبل منتخب الارم کا وقت دکھائے گا۔ لیبل پر کلک کرنے سے الارم کی آوازیں اور الارم کا فنکشن رک جائے گا۔</string>
+    <string name="help_alarm_wheel">\'وقت اور تاریخ کا پہیہ\' الارم کی تاریخ اور وقت منتخب کرنے کے لیے ہے، \'الارم سیٹ کریں\' پر کلک کرنے سے پہلے۔</string>
+    <string name="help_timer_title">ٹائمر کنٹرولز کی وضاحت</string>
+    <string name="help_timer_keypad">کی پیڈ کی نمبر کیز سے وہ وقت درج کریں جس سے ٹائمر الٹی گنتی کرے۔</string>
+    <string name="help_timer_delete">نمبر مٹانے کے لیے \'حذف کریں\' بٹن استعمال کریں۔</string>
+    <string name="help_timer_controls">\'شروع\' بٹن پر کلک کر کے ٹائمر شروع کریں۔ ٹائمر صفر پر پہنچتے ہی تمام آوازیں رک جائیں گی۔ \'توقف\' بٹن ٹائمر روکتا ہے اور \'شروع\' پر دوبارہ کلک کر کے اسے جاری کیا جا سکتا ہے۔ وقت مٹانے کے لیے \'ری سیٹ\' بٹن پر کلک کریں۔</string>
+</resources>

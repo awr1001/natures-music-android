@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Nature\'s Music</string>
+    <string name="playback_channel_name">Klänge werden abgespielt</string>
+    <string name="playback_channel_desc">Wird angezeigt, während Naturklänge im Hintergrund gemischt werden.</string>
+    <string name="alarm_channel_name">Wecker</string>
+    <string name="alarm_channel_desc">Weckt dich zur Zeit, die du einstellst.</string>
+    <string name="playback_notification_title">Nature\'s Music</string>
+    <string name="playback_notification_text">Klänge werden abgespielt</string>
+    <string name="stop">Stopp</string>
+    <string name="dismiss">Verwerfen</string>
+    <string name="snooze">Schlummern</string>
+    <string name="alarm_stop">Wecker stoppen</string>
+    <string name="alarm_notification_title">Wecker ist an</string>
+
+    <!-- Categories -->
+    <string name="category_ocean">Ozeangeräusch</string>
+    <string name="category_lake">Seegeräusch</string>
+    <string name="category_river">Flussgeräusch</string>
+    <string name="category_storm">Sturmgeräusch</string>
+    <string name="category_city">Stadtgeräusch</string>
+    <string name="category_extra">Weitere Klänge</string>
+    <!-- Sounds -->
+    <string name="sound_wind">Wind</string>
+    <string name="sound_seagulls">Möwen</string>
+    <string name="sound_waves_a">Wellen A</string>
+    <string name="sound_waves_b">Wellen B</string>
+    <string name="sound_waves_c">Wellen C</string>
+    <string name="sound_waves_d">Wellen D</string>
+    <string name="sound_birds">Vögel</string>
+    <string name="sound_loons">Seetaucher</string>
+    <string name="sound_river_a">Fluss A</string>
+    <string name="sound_river_b">Fluss B</string>
+    <string name="sound_river_c">Fluss C</string>
+    <string name="sound_rain_a">Regen A</string>
+    <string name="sound_rain_b">Regen B</string>
+    <string name="sound_rain_c">Regen C</string>
+    <string name="sound_thunder_a">Donner A</string>
+    <string name="sound_thunder_b">Donner B</string>
+    <string name="sound_city_a">Stadt A</string>
+    <string name="sound_traffic_a">Verkehr A</string>
+    <string name="sound_traffic_b">Verkehr B</string>
+    <string name="sound_trains">Züge</string>
+    <string name="sound_industrial_a">Industriell A</string>
+    <string name="sound_industrial_b">Industriell B</string>
+    <string name="sound_steam_punk">Steampunk</string>
+    <string name="sound_campfire">Lagerfeuer</string>
+    <string name="sound_crickets_a">Grillen A</string>
+    <string name="sound_crickets_b">Grillen B</string>
+    <string name="sound_fly">Fliege</string>
+    <string name="sound_frogs">Frösche</string>
+    <string name="sound_bomber">Bomber</string>
+    <string name="sound_bell">Glocke</string>
+    <!-- Screens and buttons -->
+    <string name="alarm">Wecker</string>
+    <string name="timer">Timer</string>
+    <string name="stop_all_sounds">Alle Klänge stoppen</string>
+    <string name="main_menu">Hauptmenü</string>
+    <string name="default_setting">Standardeinstellung</string>
+    <string name="pause">Pause</string>
+    <string name="start">Start</string>
+    <string name="reset">Zurücksetzen</string>
+    <string name="delete">Löschen</string>
+    <string name="set_alarm">Wecker stellen</string>
+    <string name="play">Abspielen</string>
+    <string name="starting">Wird gestartet…</string>
+    <string name="try_again">Erneut versuchen</string>
+    <string name="other_sounds_in_mix">Andere Klänge sind noch im Mix.</string>
+    <string name="current_time">Aktuelle Uhrzeit</string>
+    <string name="alarm_time">Weckzeit</string>
+    <string name="empty_mix_message">Starte die Klänge, mit denen du geweckt werden möchtest, und stelle dann den Wecker.</string>
+    <string name="alarm_active">Wecker aktiv</string>
+    <string name="snoozed">Schlummert...</string>
+    <string name="wheel_today">Heute</string>
+    <string name="wheel_tomorrow">Morgen</string>
+    <string name="wheel_am">vorm.</string>
+    <string name="wheel_pm">nachm.</string>
+    <string name="your_mix">Dein Mix</string>
+    <string name="error_couldnt_start">Dieser Klang konnte nicht gestartet werden</string>
+    <string name="help_return">Zurück</string>
+    <!-- Formatted labels -->
+    <string name="volume_percent">Lautstärke  %1$d%%</string>
+    <string name="delay_seconds">Verzögerung  %1$d</string>
+    <string name="snooze_minutes">%1$d Min.</string>
+    <string name="error_couldnt_start_code">Dieser Klang konnte nicht gestartet werden (%1$d/%2$d)</string>
+    <!-- Help -->
+    <string name="help_demo_video">* Ein Demonstrationsvideo kann durch Tippen auf die YouTube-Linkschaltfläche unten angesehen werden *</string>
+    <string name="help_main_menu_title">Hauptmenü erklärt</string>
+    <string name="help_main_menu_categories">Klicke auf die Schaltfläche mit dem Namen der Klangkategorie, die du hören möchtest, um die Klangoptionen anzuzeigen.</string>
+    <string name="help_main_menu_stop_all">Klicke auf die Schaltfläche \'Alle Klänge stoppen\', um alle Klänge in der gesamten App zu stoppen.</string>
+    <string name="help_sound_title">Klangeinstellungen erklärt</string>
+    <string name="help_sound_play">Jeder Klang wird abgespielt, indem du auf die zugehörige Schaltfläche \'Abspielen\' klickst, über der der Klangname steht. Der Klang wird gestoppt, indem du dieselbe Schaltfläche erneut klickst; sie zeigt \'Stopp\', während der Mixer spielt.</string>
+    <string name="help_sound_volume">Passe die Lautstärke jedes Klangs an, indem du den Regler nach links oder rechts bewegst.</string>
+    <string name="help_sound_delay">Einige Klänge bieten Optionen für Lautstärkebereich und Verzögerungsbereich. Wenn du den Verzögerungsregler nach links oder rechts bewegst, wird eine zufällige Auswahl kurzer Klangdateien mit einer Verzögerung in Sekunden abgespielt, die du festlegst.</string>
+    <string name="help_sound_default">Klicke auf die Schaltfläche \'Standardeinstellung\', um einen vorgeschlagenen Satz von Klängen mit den empfohlenen Einstellungen abzuspielen.</string>
+    <string name="help_sound_stop_all">Ein Klick auf die Schaltfläche \'Alle Klänge stoppen\' oben auf dem Bildschirm stoppt alle Klänge dieser Klangkategorie.</string>
+    <string name="help_alarm_title">Weckersteuerung erklärt</string>
+    <string name="help_alarm_current_time">Die Bezeichnung \'Aktuelle Uhrzeit\' zeigt dir die gegenwärtige Uhrzeit an.</string>
+    <string name="help_alarm_set">So stellst du den Wecker ein: 1 Spiele alle Klänge ab, die du hören möchtest, mit der gewünschten Lautstärke und Verzögerung. 2 Wähle dann Weckzeit und Datum mit dem \'Zeit- und Datumsrad\' unten auf dem Bildschirm. 3 Klicke auf die Schaltfläche \'Wecker stellen\'. Die Klänge stoppen, und die eingestellte Weckzeit wird bei der Bezeichnung \'Weckzeit\' angezeigt. Die Klänge und Einstellungen werden gespeichert und abgespielt, wenn die Weckzeit erreicht ist.</string>
+    <string name="help_alarm_snooze">Ein Klick auf die \'Schlummertaste\' schaltet den Wecker vorübergehend stumm. Der Wecker ertönt wieder, wenn die gewählte Schlummerzeit abgelaufen ist.</string>
+    <string name="help_alarm_alarm_time">Die Bezeichnung \'Weckzeit\' zeigt die gewählte Weckzeit an. Ein Klick auf die Bezeichnung stoppt die Weckklänge und die Weckerfunktion.</string>
+    <string name="help_alarm_wheel">Mit dem \'Zeit- und Datumsrad\' wählst du Datum und Uhrzeit des Weckers, bevor du auf \'Wecker stellen\' klickst.</string>
+    <string name="help_timer_title">Timersteuerung erklärt</string>
+    <string name="help_timer_keypad">Verwende die Zifferntasten auf dem Tastenfeld, um die Zeit einzugeben, von der der Timer herunterzählen soll.</string>
+    <string name="help_timer_delete">Verwende die Schaltfläche \'Löschen\', um Ziffern zu entfernen.</string>
+    <string name="help_timer_controls">Klicke auf die Schaltfläche \'Start\', um den Timer zu starten. Wenn der Timer null erreicht, werden alle Klänge gestoppt. Die Schaltfläche \'Pause\' hält den Timer an; er kann durch erneutes Klicken auf \'Start\' fortgesetzt werden. Klicke auf die Schaltfläche \'Zurücksetzen\', um die Zeit zu löschen.</string>
+</resources>

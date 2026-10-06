@@ -1,0 +1,2 @@
+Now available in 17 more languages.
+New splash screen with the app icon on Android 12 and later.

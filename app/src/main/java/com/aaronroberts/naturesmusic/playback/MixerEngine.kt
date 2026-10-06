@@ -12,6 +12,7 @@ import android.os.HandlerThread
 import android.os.Looper
 import androidx.annotation.RawRes
 import androidx.core.content.ContextCompat
+import com.aaronroberts.naturesmusic.R
 import com.aaronroberts.naturesmusic.alarm.AlarmMixer
 import com.aaronroberts.naturesmusic.data.PlayStyle
 import com.aaronroberts.naturesmusic.data.DefaultSettings
@@ -272,13 +273,13 @@ class MixerEngine(private val app: Context) {
         val player = try {
             createLoopingPlayer(track.rawResIds.first(), volume)
         } catch (e: Exception) {
-            setState(track.id, PlayStatus.Error, volume, e.message ?: "Couldn't start this sound")
+            setState(track.id, PlayStatus.Error, volume, e.message ?: app.getString(R.string.error_couldnt_start))
             return
         }
 
         player.setOnErrorListener { _, what, extra ->
             audioHandler.post {
-                setState(track.id, PlayStatus.Error, volume, "Couldn't start this sound ($what/$extra)")
+                setState(track.id, PlayStatus.Error, volume, app.getString(R.string.error_couldnt_start_code, what, extra))
                 releasePlayer(track.id)
             }
             true
@@ -289,7 +290,7 @@ class MixerEngine(private val app: Context) {
             setState(track.id, PlayStatus.Playing, volume, null)
             ensureService()
         } catch (e: Exception) {
-            setState(track.id, PlayStatus.Error, volume, e.message ?: "Couldn't start this sound")
+            setState(track.id, PlayStatus.Error, volume, e.message ?: app.getString(R.string.error_couldnt_start))
             releasePlayer(track.id)
         }
     }
@@ -328,7 +329,7 @@ class MixerEngine(private val app: Context) {
         val player = try {
             createOneShotPlayer(rawResId, shotVolume)
         } catch (e: Exception) {
-            failOneShot(track, trackId, userVolume, e.message ?: "Couldn't start this sound")
+            failOneShot(track, trackId, userVolume, e.message ?: app.getString(R.string.error_couldnt_start))
             return
         }
 
@@ -360,7 +361,7 @@ class MixerEngine(private val app: Context) {
             scheduleNextOneShot(track, nextDelayMs)
         } catch (e: Exception) {
             releaseOneShot(trackId)
-            failOneShot(track, trackId, userVolume, e.message ?: "Couldn't start this sound")
+            failOneShot(track, trackId, userVolume, e.message ?: app.getString(R.string.error_couldnt_start))
         }
     }
 

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Nature\'s Music</string>
+    <string name="playback_channel_name">Riproduzione suoni</string>
+    <string name="playback_channel_desc">Mostrato mentre i suoni della natura vengono mixati in sottofondo.</string>
+    <string name="alarm_channel_name">Sveglia</string>
+    <string name="alarm_channel_desc">Ti sveglia all\'ora che imposti.</string>
+    <string name="playback_notification_title">Nature\'s Music</string>
+    <string name="playback_notification_text">I suoni sono in riproduzione</string>
+    <string name="stop">Ferma</string>
+    <string name="dismiss">Ignora</string>
+    <string name="snooze">Posticipa</string>
+    <string name="alarm_stop">Ferma sveglia</string>
+    <string name="alarm_notification_title">Sveglia attiva</string>
+
+    <!-- Categories -->
+    <string name="category_ocean">Suono dell\'oceano</string>
+    <string name="category_lake">Suono del lago</string>
+    <string name="category_river">Suono del fiume</string>
+    <string name="category_storm">Suono del temporale</string>
+    <string name="category_city">Suono della città</string>
+    <string name="category_extra">Suoni extra</string>
+    <!-- Sounds -->
+    <string name="sound_wind">Vento</string>
+    <string name="sound_seagulls">Gabbiani</string>
+    <string name="sound_waves_a">Onde A</string>
+    <string name="sound_waves_b">Onde B</string>
+    <string name="sound_waves_c">Onde C</string>
+    <string name="sound_waves_d">Onde D</string>
+    <string name="sound_birds">Uccelli</string>
+    <string name="sound_loons">Strolaghe</string>
+    <string name="sound_river_a">Fiume A</string>
+    <string name="sound_river_b">Fiume B</string>
+    <string name="sound_river_c">Fiume C</string>
+    <string name="sound_rain_a">Pioggia A</string>
+    <string name="sound_rain_b">Pioggia B</string>
+    <string name="sound_rain_c">Pioggia C</string>
+    <string name="sound_thunder_a">Tuono A</string>
+    <string name="sound_thunder_b">Tuono B</string>
+    <string name="sound_city_a">Città A</string>
+    <string name="sound_traffic_a">Traffico A</string>
+    <string name="sound_traffic_b">Traffico B</string>
+    <string name="sound_trains">Treni</string>
+    <string name="sound_industrial_a">Industriale A</string>
+    <string name="sound_industrial_b">Industriale B</string>
+    <string name="sound_steam_punk">Steampunk</string>
+    <string name="sound_campfire">Falò</string>
+    <string name="sound_crickets_a">Grilli A</string>
+    <string name="sound_crickets_b">Grilli B</string>
+    <string name="sound_fly">Mosca</string>
+    <string name="sound_frogs">Rane</string>
+    <string name="sound_bomber">Bombardiere</string>
+    <string name="sound_bell">Campana</string>
+    <!-- Screens and buttons -->
+    <string name="alarm">Sveglia</string>
+    <string name="timer">Timer</string>
+    <string name="stop_all_sounds">Ferma tutti i suoni</string>
+    <string name="main_menu">Menu principale</string>
+    <string name="default_setting">Impostazione predefinita</string>
+    <string name="pause">Pausa</string>
+    <string name="start">Avvia</string>
+    <string name="reset">Azzera</string>
+    <string name="delete">Elimina</string>
+    <string name="set_alarm">Imposta sveglia</string>
+    <string name="play">Riproduci</string>
+    <string name="starting">Avvio…</string>
+    <string name="try_again">Riprova</string>
+    <string name="other_sounds_in_mix">Altri suoni sono ancora nel mix.</string>
+    <string name="current_time">Ora attuale</string>
+    <string name="alarm_time">Ora della sveglia</string>
+    <string name="empty_mix_message">Avvia i suoni con cui vuoi svegliarti, quindi imposta la sveglia.</string>
+    <string name="alarm_active">Sveglia attiva</string>
+    <string name="snoozed">Posticipata...</string>
+    <string name="wheel_today">Oggi</string>
+    <string name="wheel_tomorrow">Domani</string>
+    <string name="wheel_am">AM</string>
+    <string name="wheel_pm">PM</string>
+    <string name="your_mix">Il tuo mix</string>
+    <string name="error_couldnt_start">Impossibile avviare questo suono</string>
+    <string name="help_return">Indietro</string>
+    <!-- Formatted labels -->
+    <string name="volume_percent">Volume  %1$d%%</string>
+    <string name="delay_seconds">Ritardo  %1$d</string>
+    <string name="snooze_minutes">%1$d min.</string>
+    <string name="error_couldnt_start_code">Impossibile avviare questo suono (%1$d/%2$d)</string>
+    <!-- Help -->
+    <string name="help_demo_video">* Un video dimostrativo si può vedere toccando il pulsante del link di YouTube qui sotto *</string>
+    <string name="help_main_menu_title">Menu principale spiegato</string>
+    <string name="help_main_menu_categories">Fai clic sul pulsante con il nome della categoria di suoni che vuoi ascoltare per mostrare le opzioni audio.</string>
+    <string name="help_main_menu_stop_all">Fai clic sul pulsante \'Ferma tutti i suoni\' per fermare tutti i suoni in riproduzione nell\'intera app.</string>
+    <string name="help_sound_title">Impostazioni audio spiegate</string>
+    <string name="help_sound_play">Ogni suono viene riprodotto facendo clic sul relativo pulsante \'Riproduci\', sopra il quale è mostrato il nome del suono. Il suono si ferma facendo di nuovo clic sullo stesso pulsante, che indica \'Ferma\' mentre il mixer è in riproduzione.</string>
+    <string name="help_sound_volume">Regola il volume di ogni suono spostando il cursore a sinistra o a destra.</string>
+    <string name="help_sound_delay">Alcuni suoni offrono opzioni di intervallo di volume e di ritardo. Spostando il cursore del ritardo a sinistra o a destra si imposta una selezione casuale di brevi file audio da riprodurre con un ritardo, in secondi, che scegli tu.</string>
+    <string name="help_sound_default">Fai clic sul pulsante \'Impostazione predefinita\' per riprodurre un insieme di suoni suggerito con le impostazioni consigliate.</string>
+    <string name="help_sound_stop_all">Facendo clic sul pulsante \'Ferma tutti i suoni\' in alto nello schermo si fermano tutti i suoni in riproduzione per la categoria di suoni.</string>
+    <string name="help_alarm_title">Controlli della sveglia spiegati</string>
+    <string name="help_alarm_current_time">L\'etichetta \'Ora attuale\' ti mostra l\'ora presente.</string>
+    <string name="help_alarm_set">Per impostare la sveglia: 1 Riproduci tutti i suoni che vuoi sentire con il volume e il ritardo desiderati. 2 Poi seleziona l\'ora e la data della sveglia con la \'Rotella di ora e data\' in fondo allo schermo. 3 Fai clic sul pulsante \'Imposta sveglia\'. I suoni si fermeranno e l\'ora della sveglia impostata sarà mostrata nell\'etichetta \'Ora della sveglia\'. I suoni e le impostazioni vengono salvati e riprodotti quando arriva l\'ora della sveglia.</string>
+    <string name="help_alarm_snooze">Facendo clic sul \'Pulsante Posticipa\' la sveglia viene temporaneamente silenziata. La sveglia riprenderà allo scadere del tempo di posticipo selezionato.</string>
+    <string name="help_alarm_alarm_time">L\'etichetta \'Ora della sveglia\' mostra l\'ora della sveglia selezionata. Facendo clic sull\'etichetta si fermano i suoni della sveglia e la funzione sveglia.</string>
+    <string name="help_alarm_wheel">La \'Rotella di ora e data\' serve a selezionare la data e l\'ora della sveglia prima di fare clic su \'Imposta sveglia\'.</string>
+    <string name="help_timer_title">Controlli del timer spiegati</string>
+    <string name="help_timer_keypad">Usa i tasti numerici del tastierino per inserire il tempo da cui vuoi che il timer conti alla rovescia.</string>
+    <string name="help_timer_delete">Usa il pulsante \'Elimina\' per cancellare le cifre.</string>
+    <string name="help_timer_controls">Fai clic sul pulsante \'Avvia\' per avviare il timer. Quando il timer arriva a zero, tutti i suoni vengono fermati. Il pulsante \'Pausa\' ferma il timer e può essere riavviato facendo di nuovo clic su \'Avvia\'. Fai clic sul pulsante \'Azzera\' per cancellare il tempo.</string>
+</resources>

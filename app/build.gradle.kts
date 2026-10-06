@@ -4,6 +4,17 @@ plugins {
     alias(libs.plugins.kotlin.compose)
 }
 
+import java.util.Properties
+
+val signingPropsFile = rootProject.file("signing.properties")
+val signingProps = Properties().apply {
+    if (signingPropsFile.exists()) {
+        signingPropsFile.inputStream().use { load(it) }
+    }
+}
+val releaseSigning = signingPropsFile.exists()
+        && listOf("storeFile", "storePassword", "keyAlias", "keyPassword").all { signingProps.getProperty(it) != null }
+
 android {
     namespace = "com.aaronroberts.naturesmusic"
     compileSdk = 36
@@ -12,12 +23,26 @@ android {
         applicationId = "com.aaronroberts.naturesmusic"
         minSdk = 26
         targetSdk = 36
-        versionCode = 1
-        versionName = "1.8"
+        versionCode = 3
+        versionName = "1.8.1"
+    }
+
+    signingConfigs {
+        if (releaseSigning) {
+            create("release") {
+                storeFile = rootProject.file(signingProps.getProperty("storeFile")!!)
+                storePassword = signingProps.getProperty("storePassword")
+                keyAlias = signingProps.getProperty("keyAlias")
+                keyPassword = signingProps.getProperty("keyPassword")
+            }
+        }
     }
 
     buildTypes {
         release {
+            if (releaseSigning) {
+                signingConfig = signingConfigs.getByName("release")
+            }
             isMinifyEnabled = false
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),

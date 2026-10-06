@@ -27,6 +27,7 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontWeight
@@ -36,6 +37,7 @@ import androidx.compose.ui.unit.sp
 import androidx.compose.ui.viewinterop.AndroidView
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.aaronroberts.naturesmusic.NaturesMusicApplication
+import com.aaronroberts.naturesmusic.R
 import com.aaronroberts.naturesmusic.alarm.AlarmPhase
 import com.aaronroberts.naturesmusic.alarm.AlarmStore
 import com.aaronroberts.naturesmusic.ui.components.PillButton
@@ -81,15 +83,18 @@ fun AlarmScreen(
         }
     }
 
+    val alarmLabel = stringResource(R.string.alarm)
+    val alarmActiveLabel = stringResource(R.string.alarm_active)
+    val snoozedLabel = stringResource(R.string.snoozed)
     val (pillTitle, pillColor) = when (settings.phase) {
-        AlarmPhase.Idle -> "Alarm" to Ink
+        AlarmPhase.Idle -> alarmLabel to Ink
         AlarmPhase.Armed -> settings.alarmTimeLabel to AlarmBlue
-        AlarmPhase.Ringing -> "Alarm Active" to AlarmRed
-        AlarmPhase.Snoozed -> "Snoozed..." to AlarmGreen
+        AlarmPhase.Ringing -> alarmActiveLabel to AlarmRed
+        AlarmPhase.Snoozed -> snoozedLabel to AlarmGreen
     }
 
     Box(modifier = modifier.fillMaxSize()) {
-        ScreenScaffold(title = "Alarm", modifier = Modifier.fillMaxSize()) {
+        ScreenScaffold(title = stringResource(R.string.alarm), modifier = Modifier.fillMaxSize()) {
             Row(
                 modifier = Modifier
                     .fillMaxWidth()
@@ -99,7 +104,7 @@ fun AlarmScreen(
             ) {
                 HelpQuestionButton(onClick = { showHelp = true })
                 PillButton(
-                    label = "Main Menu",
+                    label = stringResource(R.string.main_menu),
                     onClick = onBack,
                     fillMaxWidth = false,
                     height = 44.dp,
@@ -112,7 +117,7 @@ fun AlarmScreen(
             ) {
                 if (emptyMixMessage) {
                     Text(
-                        text = "Start the sounds you want to wake to, then Set Alarm.",
+                        text = stringResource(R.string.empty_mix_message),
                         color = Ink,
                         fontSize = 16.sp,
                         fontWeight = FontWeight.Bold,
@@ -122,7 +127,7 @@ fun AlarmScreen(
                             .padding(bottom = 12.dp),
                     )
                 }
-                SectionLabel("Current Time")
+                SectionLabel(stringResource(R.string.current_time))
                 PillButton(
                     label = currentTimeText,
                     onClick = {},
@@ -137,7 +142,7 @@ fun AlarmScreen(
                     verticalAlignment = Alignment.Top,
                 ) {
                     PillButton(
-                        label = "Set Alarm",
+                        label = stringResource(R.string.set_alarm),
                         onClick = {
                             val armed = app.alarmController.setAlarm(picker)
                             emptyMixMessage = !armed
@@ -148,14 +153,14 @@ fun AlarmScreen(
                     )
                     Column(horizontalAlignment = Alignment.CenterHorizontally) {
                         PillButton(
-                            label = "Snooze",
+                            label = stringResource(R.string.snooze),
                             onClick = { app.alarmController.snooze() },
                             fillMaxWidth = false,
                             height = 44.dp,
                             modifier = Modifier.width(140.dp),
                         )
                         Text(
-                            text = "${settings.snoozeMinutes} mins.",
+                            text = stringResource(R.string.snooze_minutes, settings.snoozeMinutes),
                             color = Ink,
                             fontSize = 16.sp,
                             fontWeight = FontWeight.Bold,
@@ -185,7 +190,7 @@ fun AlarmScreen(
                     }
                 }
                 Spacer(Modifier.height(22.dp))
-                SectionLabel("Alarm Time")
+                SectionLabel(stringResource(R.string.alarm_time))
                 PillButton(
                     label = pillTitle,
                     onClick = {
@@ -251,7 +256,13 @@ fun DateTimeWheel(
             (start.clone() as Calendar).apply { add(Calendar.DAY_OF_YEAR, offset) }
         }
     }
-    val dateLabels = remember(dates) { dates.map { dateWheelLabel(it) }.toTypedArray() }
+    val todayLabel = stringResource(R.string.wheel_today)
+    val tomorrowLabel = stringResource(R.string.wheel_tomorrow)
+    val amLabel = stringResource(R.string.wheel_am)
+    val pmLabel = stringResource(R.string.wheel_pm)
+    val dateLabels = remember(dates, todayLabel, tomorrowLabel) {
+        dates.map { dateWheelLabel(it, todayLabel, tomorrowLabel) }.toTypedArray()
+    }
     val change = remember { object { var current: (Calendar) -> Unit = onValueChange } }
     change.current = onValueChange
 
@@ -300,7 +311,7 @@ fun DateTimeWheel(
                     NumberPicker(ctx).apply {
                         minValue = 0
                         maxValue = 1
-                        displayedValues = arrayOf("AM", "PM")
+                        displayedValues = arrayOf(amLabel, pmLabel)
                         wrapSelectorWheel = false
                         descendantFocusability = NumberPicker.FOCUS_BLOCK_DESCENDANTS
                     }
@@ -369,11 +380,11 @@ private fun sameDay(a: Calendar, b: Calendar): Boolean {
         a.get(Calendar.DAY_OF_YEAR) == b.get(Calendar.DAY_OF_YEAR)
 }
 
-private fun dateWheelLabel(day: Calendar): String {
+private fun dateWheelLabel(day: Calendar, todayLabel: String, tomorrowLabel: String): String {
     val today = Calendar.getInstance()
-    if (sameDay(day, today)) return "Today"
+    if (sameDay(day, today)) return todayLabel
     val tomorrow = (today.clone() as Calendar).apply { add(Calendar.DAY_OF_YEAR, 1) }
-    if (sameDay(day, tomorrow)) return "Tomorrow"
+    if (sameDay(day, tomorrow)) return tomorrowLabel
     val fmt = if (day.get(Calendar.YEAR) == today.get(Calendar.YEAR)) {
         SimpleDateFormat("EEE MMM d", Locale.getDefault())
     } else {

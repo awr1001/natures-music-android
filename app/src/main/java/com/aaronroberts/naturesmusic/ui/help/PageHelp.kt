@@ -29,6 +29,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
@@ -136,7 +137,7 @@ fun PageHelpOverlay(
                 }
             }
             Text(
-                text = "* A demonstration video can be viewed by tapping on the YouTube link button below *",
+                text = stringResource(R.string.help_demo_video),
                 color = Ink,
                 fontSize = 17.sp,
                 fontWeight = FontWeight.Bold,
@@ -175,18 +176,17 @@ fun PageHelpOverlay(
 fun HomePageHelp(visible: Boolean, onDismiss: () -> Unit) {
     AnimatedVisibility(visible = visible, enter = fadeIn(), exit = fadeOut()) {
         PageHelpOverlay(
-            title = "Main Menu Explained",
+            title = stringResource(R.string.help_main_menu_title),
             sections = listOf(
                 HelpSection(
-                    bullet = "Click on the button with the name of the sound category you want to hear to display the sound options.",
+                    bullet = stringResource(R.string.help_main_menu_categories),
                     imageResId = R.drawable.help_menu_1,
                 ),
                 HelpSection(
-                    bullet = "Click on the 'Stop All Sounds' button to stop all sounds playing for the entire app.",
-                    imageResId = R.drawable.help_menu_2,
+                    bullet = stringResource(R.string.help_main_menu_stop_all),
                 ),
             ),
-            dismissLabel = "Main Menu",
+            dismissLabel = stringResource(R.string.main_menu),
             onDismiss = onDismiss,
         )
     }
@@ -196,29 +196,29 @@ fun HomePageHelp(visible: Boolean, onDismiss: () -> Unit) {
 fun SoundPageHelp(visible: Boolean, onDismiss: () -> Unit) {
     AnimatedVisibility(visible = visible, enter = fadeIn(), exit = fadeOut()) {
         PageHelpOverlay(
-            title = "Sound Settings Explained",
+            title = stringResource(R.string.help_sound_title),
             sections = listOf(
                 HelpSection(
-                    bullet = "Each sound is played by clicking on the corresponding Play button with the sound name displayed above it. The sound is stopped by clicking the same button, which reads Stop while the mixer is playing.",
+                    bullet = stringResource(R.string.help_sound_play),
                     imageResId = R.drawable.help_sound_1,
                 ),
                 HelpSection(
-                    bullet = "Adjust the volume for each sound by moving the slider to the left or right.",
+                    bullet = stringResource(R.string.help_sound_volume),
                     imageResId = R.drawable.help_sound_2,
                 ),
                 HelpSection(
-                    bullet = "Some sounds offer volume range and delay range options. Adjust the range settings by moving the sliders left or right.",
+                    bullet = stringResource(R.string.help_sound_delay),
                     imageResId = R.drawable.help_sound_3,
                 ),
                 // iOS has screenshot crops 4–5; Android crops not present — text-only sections.
                 HelpSection(
-                    bullet = "Click on the 'Default Setting' button to play a suggested set of sounds at recommended settings.",
+                    bullet = stringResource(R.string.help_sound_default),
                 ),
                 HelpSection(
-                    bullet = "Clicking on the 'Stop All Sounds' button at the top of the screen will stop all the sounds playing for the sound category.",
+                    bullet = stringResource(R.string.help_sound_stop_all),
                 ),
             ),
-            dismissLabel = "Return",
+            dismissLabel = stringResource(R.string.help_return),
             onDismiss = onDismiss,
         )
     }
@@ -228,30 +228,30 @@ fun SoundPageHelp(visible: Boolean, onDismiss: () -> Unit) {
 fun AlarmPageHelp(visible: Boolean, onDismiss: () -> Unit) {
     AnimatedVisibility(visible = visible, enter = fadeIn(), exit = fadeOut()) {
         PageHelpOverlay(
-            title = "Alarm Controlls Explained",
+            title = stringResource(R.string.help_alarm_title),
             sections = listOf(
                 HelpSection(
-                    bullet = "The 'Current Time' label is displaying the present time to you.",
+                    bullet = stringResource(R.string.help_alarm_current_time),
                     imageResId = R.drawable.help_alarm_1,
                 ),
                 HelpSection(
-                    bullet = "To set the alarm: 1 Play all of the sounds you want to hear at the desired volume and delay settings. 2 Then select the alarm time and date with the 'Time and Date Wheel' at the bottom of the screen. 3 Click on the 'Set Alarm' button. The sounds will stop and the alarm time that you set will be displayed at the 'Alarm Time' label. The sounds and settings are saved and replayed when the alarm time arrives.",
+                    bullet = stringResource(R.string.help_alarm_set),
                     imageResId = R.drawable.help_alarm_2,
                 ),
                 HelpSection(
-                    bullet = "Clicking on the 'Snooze Button' will temporarily silence the alarm. The alarm will return after the selected snooze time runs out.",
+                    bullet = stringResource(R.string.help_alarm_snooze),
                     imageResId = R.drawable.help_alarm_3,
                 ),
                 HelpSection(
-                    bullet = "The 'Alarm Time' label will display the alarm time selected. Clicking on the label will stop the alarm sounds and the alarm function.",
+                    bullet = stringResource(R.string.help_alarm_alarm_time),
                     imageResId = R.drawable.help_alarm_4,
                 ),
                 HelpSection(
-                    bullet = "The 'Time and Date Wheel' is used to select the date and time of the alarm before clicking on 'Set Alarm'.",
+                    bullet = stringResource(R.string.help_alarm_wheel),
                     imageResId = R.drawable.help_alarm_5,
                 ),
             ),
-            dismissLabel = "Alarm",
+            dismissLabel = stringResource(R.string.alarm),
             onDismiss = onDismiss,
         )
     }
@@ -261,23 +261,23 @@ fun AlarmPageHelp(visible: Boolean, onDismiss: () -> Unit) {
 fun TimerPageHelp(visible: Boolean, onDismiss: () -> Unit) {
     AnimatedVisibility(visible = visible, enter = fadeIn(), exit = fadeOut()) {
         PageHelpOverlay(
-            title = "Timer Controlls Explained",
+            title = stringResource(R.string.help_timer_title),
             sections = listOf(
                 HelpSection(
-                    bullet = "Use the number keys on the keypad to enter the time you want the timer to countdown from.",
+                    bullet = stringResource(R.string.help_timer_keypad),
                     imageResId = R.drawable.help_timer_1,
                 ),
                 HelpSection(
                     // Android chrome uses Delete; iOS copy says "back arrow".
-                    bullet = "Use the Delete button to erase numbers.",
+                    bullet = stringResource(R.string.help_timer_delete),
                     imageResId = R.drawable.help_timer_2,
                 ),
                 HelpSection(
-                    bullet = "Click on the 'Start' button to start the timer. Once the timer reaches zero all of the sounds will be stopped. The 'Pause' button will stop the timer and can be restarted by clicking 'Start' again. Click the 'Reset' button to erase the time.",
+                    bullet = stringResource(R.string.help_timer_controls),
                     imageResId = R.drawable.help_timer_3,
                 ),
             ),
-            dismissLabel = "Timer",
+            dismissLabel = stringResource(R.string.timer),
             onDismiss = onDismiss,
         )
     }

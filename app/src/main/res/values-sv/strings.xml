@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Nature\'s Music</string>
+    <string name="playback_channel_name">Spelar ljud</string>
+    <string name="playback_channel_desc">Visas medan naturljud mixas i bakgrunden.</string>
+    <string name="alarm_channel_name">Alarm</string>
+    <string name="alarm_channel_desc">Väcker dig vid tiden du ställer in.</string>
+    <string name="playback_notification_title">Nature\'s Music</string>
+    <string name="playback_notification_text">Ljud spelas upp</string>
+    <string name="stop">Stopp</string>
+    <string name="dismiss">Stäng</string>
+    <string name="snooze">Snooza</string>
+    <string name="alarm_stop">Stoppa alarm</string>
+    <string name="alarm_notification_title">Alarmet är på</string>
+
+    <!-- Categories -->
+    <string name="category_ocean">Havsljud</string>
+    <string name="category_lake">Sjöjud</string>
+    <string name="category_river">Flodljud</string>
+    <string name="category_storm">Stormljud</string>
+    <string name="category_city">Stadsljud</string>
+    <string name="category_extra">Extra ljud</string>
+    <!-- Sounds -->
+    <string name="sound_wind">Vind</string>
+    <string name="sound_seagulls">Måsar</string>
+    <string name="sound_waves_a">Vågor A</string>
+    <string name="sound_waves_b">Vågor B</string>
+    <string name="sound_waves_c">Vågor C</string>
+    <string name="sound_waves_d">Vågor D</string>
+    <string name="sound_birds">Fåglar</string>
+    <string name="sound_loons">Lommar</string>
+    <string name="sound_river_a">Flod A</string>
+    <string name="sound_river_b">Flod B</string>
+    <string name="sound_river_c">Flod C</string>
+    <string name="sound_rain_a">Regn A</string>
+    <string name="sound_rain_b">Regn B</string>
+    <string name="sound_rain_c">Regn C</string>
+    <string name="sound_thunder_a">Åska A</string>
+    <string name="sound_thunder_b">Åska B</string>
+    <string name="sound_city_a">Stad A</string>
+    <string name="sound_traffic_a">Trafik A</string>
+    <string name="sound_traffic_b">Trafik B</string>
+    <string name="sound_trains">Tåg</string>
+    <string name="sound_industrial_a">Industri A</string>
+    <string name="sound_industrial_b">Industri B</string>
+    <string name="sound_steam_punk">Steampunk</string>
+    <string name="sound_campfire">Lägereld</string>
+    <string name="sound_crickets_a">Syrsor A</string>
+    <string name="sound_crickets_b">Syrsor B</string>
+    <string name="sound_fly">Fluga</string>
+    <string name="sound_frogs">Grodor</string>
+    <string name="sound_bomber">Bombplan</string>
+    <string name="sound_bell">Klocka</string>
+    <!-- Screens and buttons -->
+    <string name="alarm">Alarm</string>
+    <string name="timer">Timer</string>
+    <string name="stop_all_sounds">Stoppa alla ljud</string>
+    <string name="main_menu">Huvudmeny</string>
+    <string name="default_setting">Standardinställning</string>
+    <string name="pause">Pausa</string>
+    <string name="start">Starta</string>
+    <string name="reset">Återställ</string>
+    <string name="delete">Radera</string>
+    <string name="set_alarm">Ställ in alarm</string>
+    <string name="play">Spela upp</string>
+    <string name="starting">Startar…</string>
+    <string name="try_again">Försök igen</string>
+    <string name="other_sounds_in_mix">Andra ljud finns kvar i mixen.</string>
+    <string name="current_time">Aktuell tid</string>
+    <string name="alarm_time">Alarmtid</string>
+    <string name="empty_mix_message">Starta ljuden du vill vakna till och ställ sedan in alarmet.</string>
+    <string name="alarm_active">Alarm aktivt</string>
+    <string name="snoozed">Snoozat...</string>
+    <string name="wheel_today">I dag</string>
+    <string name="wheel_tomorrow">I morgon</string>
+    <string name="wheel_am">fm</string>
+    <string name="wheel_pm">em</string>
+    <string name="your_mix">Din mix</string>
+    <string name="error_couldnt_start">Det gick inte att starta det här ljudet</string>
+    <string name="help_return">Tillbaka</string>
+    <!-- Formatted labels -->
+    <string name="volume_percent">Volym  %1$d%%</string>
+    <string name="delay_seconds">Fördröjning  %1$d</string>
+    <string name="snooze_minutes">%1$d min.</string>
+    <string name="error_couldnt_start_code">Det gick inte att starta det här ljudet (%1$d/%2$d)</string>
+    <!-- Help -->
+    <string name="help_demo_video">* En demonstrationsvideo kan ses genom att trycka på YouTube-länkknappen nedan *</string>
+    <string name="help_main_menu_title">Huvudmenyn förklarad</string>
+    <string name="help_main_menu_categories">Klicka på knappen med namnet på den ljudkategori du vill höra för att visa ljudalternativen.</string>
+    <string name="help_main_menu_stop_all">Klicka på knappen \'Stoppa alla ljud\' för att stoppa alla ljud som spelas i hela appen.</string>
+    <string name="help_sound_title">Ljudinställningar förklarade</string>
+    <string name="help_sound_play">Varje ljud spelas upp genom att klicka på motsvarande knapp \'Spela upp\', med ljudnamnet ovanför. Ljudet stoppas genom att klicka på samma knapp igen; den visar \'Stopp\' medan mixern spelar.</string>
+    <string name="help_sound_volume">Justera volymen för varje ljud genom att flytta reglaget åt vänster eller höger.</string>
+    <string name="help_sound_delay">Vissa ljud har alternativ för volymintervall och fördröjningsintervall. Om du flyttar fördröjningsreglaget åt vänster eller höger ställs ett slumpmässigt urval av korta ljudfiler in så att de spelas upp med en fördröjning i sekunder som du väljer.</string>
+    <string name="help_sound_default">Klicka på knappen \'Standardinställning\' för att spela upp en föreslagen uppsättning ljud med rekommenderade inställningar.</string>
+    <string name="help_sound_stop_all">Om du klickar på knappen \'Stoppa alla ljud\' högst upp på skärmen stoppas alla ljud som spelas för ljudkategorin.</string>
+    <string name="help_alarm_title">Alarmkontroller förklarade</string>
+    <string name="help_alarm_current_time">Etiketten \'Aktuell tid\' visar den nuvarande tiden för dig.</string>
+    <string name="help_alarm_set">Så ställer du in alarmet: 1 Spela upp alla ljud du vill höra med önskad volym och fördröjning. 2 Välj sedan alarmtid och datum med \'Tid- och datumhjulet\' längst ned på skärmen. 3 Klicka på knappen \'Ställ in alarm\'. Ljuden stoppas och den alarmtid du ställde in visas vid etiketten \'Alarmtid\'. Ljuden och inställningarna sparas och spelas upp igen när alarmtiden infaller.</string>
+    <string name="help_alarm_snooze">Om du klickar på \'Snoozaknappen\' tystas alarmet tillfälligt. Alarmet återkommer när den valda snoozetiden har gått ut.</string>
+    <string name="help_alarm_alarm_time">Etiketten \'Alarmtid\' visar den valda alarmtiden. Om du klickar på etiketten stoppas alarmljuden och alarmfunktionen.</string>
+    <string name="help_alarm_wheel">\'Tid- och datumhjulet\' används för att välja datum och tid för alarmet innan du klickar på \'Ställ in alarm\'.</string>
+    <string name="help_timer_title">Timerkontroller förklarade</string>
+    <string name="help_timer_keypad">Använd siffertangenterna på knappsatsen för att ange tiden som timern ska räkna ner från.</string>
+    <string name="help_timer_delete">Använd knappen \'Radera\' för att ta bort siffror.</string>
+    <string name="help_timer_controls">Klicka på knappen \'Starta\' för att starta timern. När timern når noll stoppas alla ljud. Knappen \'Pausa\' stoppar timern, och den kan startas igen genom att klicka på \'Starta\' på nytt. Klicka på knappen \'Återställ\' för att radera tiden.</string>
+</resources>

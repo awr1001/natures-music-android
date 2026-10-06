@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Nature\'s Music</string>
+    <string name="playback_channel_name">ध्वनियाँ चल रही हैं</string>
+    <string name="playback_channel_desc">प्रकृति की ध्वनियाँ पृष्ठभूमि में मिक्स होने पर दिखाया जाता है।</string>
+    <string name="alarm_channel_name">अलार्म</string>
+    <string name="alarm_channel_desc">आपके द्वारा सेट किए गए समय पर जगाता है।</string>
+    <string name="playback_notification_title">Nature\'s Music</string>
+    <string name="playback_notification_text">ध्वनियाँ चल रही हैं</string>
+    <string name="stop">रोकें</string>
+    <string name="dismiss">खारिज करें</string>
+    <string name="snooze">स्नूज़</string>
+    <string name="alarm_stop">अलार्म रोकें</string>
+    <string name="alarm_notification_title">अलार्म चालू है</string>
+
+    <!-- Categories -->
+    <string name="category_ocean">समुद्र की ध्वनि</string>
+    <string name="category_lake">झील की ध्वनि</string>
+    <string name="category_river">नदी की ध्वनि</string>
+    <string name="category_storm">तूफ़ान की ध्वनि</string>
+    <string name="category_city">शहर की ध्वनि</string>
+    <string name="category_extra">अतिरिक्त ध्वनियाँ</string>
+    <!-- Sounds -->
+    <string name="sound_wind">हवा</string>
+    <string name="sound_seagulls">सीगल</string>
+    <string name="sound_waves_a">लहरें A</string>
+    <string name="sound_waves_b">लहरें B</string>
+    <string name="sound_waves_c">लहरें C</string>
+    <string name="sound_waves_d">लहरें D</string>
+    <string name="sound_birds">पक्षी</string>
+    <string name="sound_loons">लून</string>
+    <string name="sound_river_a">नदी A</string>
+    <string name="sound_river_b">नदी B</string>
+    <string name="sound_river_c">नदी C</string>
+    <string name="sound_rain_a">बारिश A</string>
+    <string name="sound_rain_b">बारिश B</string>
+    <string name="sound_rain_c">बारिश C</string>
+    <string name="sound_thunder_a">गरज A</string>
+    <string name="sound_thunder_b">गरज B</string>
+    <string name="sound_city_a">शहर A</string>
+    <string name="sound_traffic_a">ट्रैफ़िक A</string>
+    <string name="sound_traffic_b">ट्रैफ़िक B</string>
+    <string name="sound_trains">रेलगाड़ियाँ</string>
+    <string name="sound_industrial_a">औद्योगिक A</string>
+    <string name="sound_industrial_b">औद्योगिक B</string>
+    <string name="sound_steam_punk">स्टीमपंक</string>
+    <string name="sound_campfire">अलाव</string>
+    <string name="sound_crickets_a">झींगुर A</string>
+    <string name="sound_crickets_b">झींगुर B</string>
+    <string name="sound_fly">मक्खी</string>
+    <string name="sound_frogs">मेंढक</string>
+    <string name="sound_bomber">बमवर्षक</string>
+    <string name="sound_bell">घंटी</string>
+    <!-- Screens and buttons -->
+    <string name="alarm">अलार्म</string>
+    <string name="timer">टाइमर</string>
+    <string name="stop_all_sounds">सभी ध्वनियाँ रोकें</string>
+    <string name="main_menu">मुख्य मेनू</string>
+    <string name="default_setting">डिफ़ॉल्ट सेटिंग</string>
+    <string name="pause">विराम</string>
+    <string name="start">शुरू करें</string>
+    <string name="reset">रीसेट</string>
+    <string name="delete">मिटाएँ</string>
+    <string name="set_alarm">अलार्म सेट करें</string>
+    <string name="play">चलाएँ</string>
+    <string name="starting">शुरू हो रहा है…</string>
+    <string name="try_again">फिर कोशिश करें</string>
+    <string name="other_sounds_in_mix">अन्य ध्वनियाँ अभी भी मिक्स में हैं।</string>
+    <string name="current_time">वर्तमान समय</string>
+    <string name="alarm_time">अलार्म का समय</string>
+    <string name="empty_mix_message">वे ध्वनियाँ शुरू करें जिनके साथ आप जागना चाहते हैं, फिर अलार्म सेट करें।</string>
+    <string name="alarm_active">अलार्म सक्रिय है</string>
+    <string name="snoozed">स्नूज़ पर...</string>
+    <string name="wheel_today">आज</string>
+    <string name="wheel_tomorrow">कल</string>
+    <string name="wheel_am">am</string>
+    <string name="wheel_pm">pm</string>
+    <string name="your_mix">आपका मिक्स</string>
+    <string name="error_couldnt_start">यह ध्वनि शुरू नहीं हो सकी</string>
+    <string name="help_return">वापस</string>
+    <!-- Formatted labels -->
+    <string name="volume_percent">आवाज़  %1$d%%</string>
+    <string name="delay_seconds">देरी  %1$d</string>
+    <string name="snooze_minutes">%1$d मि.</string>
+    <string name="error_couldnt_start_code">यह ध्वनि शुरू नहीं हो सकी (%1$d/%2$d)</string>
+    <!-- Help -->
+    <string name="help_demo_video">* नीचे दिए YouTube लिंक बटन पर टैप करके एक प्रदर्शन वीडियो देखा जा सकता है *</string>
+    <string name="help_main_menu_title">मुख्य मेनू की व्याख्या</string>
+    <string name="help_main_menu_categories">जिस ध्वनि श्रेणी को आप सुनना चाहते हैं, उसके नाम वाले बटन पर क्लिक करें ताकि ध्वनि विकल्प दिखें।</string>
+    <string name="help_main_menu_stop_all">\'सभी ध्वनियाँ रोकें\' बटन पर क्लिक करें ताकि पूरे ऐप में चल रही सभी ध्वनियाँ रुक जाएँ।</string>
+    <string name="help_sound_title">ध्वनि सेटिंग की व्याख्या</string>
+    <string name="help_sound_play">हर ध्वनि संबंधित \'चलाएँ\' बटन पर क्लिक करने से चलती है, जिसके ऊपर ध्वनि का नाम दिखता है। उसी बटन पर फिर क्लिक करने से ध्वनि रुकती है; मिक्सर चलते समय उस पर \'रोकें\' लिखा होता है।</string>
+    <string name="help_sound_volume">स्लाइडर को बाएँ या दाएँ घुमाकर हर ध्वनि का स्तर समायोजित करें।</string>
+    <string name="help_sound_delay">कुछ ध्वनियों में ध्वनि-स्तर सीमा और देरी सीमा के विकल्प होते हैं। देरी स्लाइडर को बाएँ या दाएँ करने से छोटे ध्वनि फ़ाइलों का एक यादृच्छिक चयन उन सेकंड की देरी पर चलेगा जिसे आप चुनते हैं।</string>
+    <string name="help_sound_default">\'डिफ़ॉल्ट सेटिंग\' बटन पर क्लिक करें ताकि सुझाई गई ध्वनियाँ अनुशंसित सेटिंग पर चलें।</string>
+    <string name="help_sound_stop_all">स्क्रीन के ऊपर \'सभी ध्वनियाँ रोकें\' बटन पर क्लिक करने से उस ध्वनि श्रेणी की सभी चल रही ध्वनियाँ रुक जाएँगी।</string>
+    <string name="help_alarm_title">अलार्म नियंत्रण की व्याख्या</string>
+    <string name="help_alarm_current_time">\'वर्तमान समय\' लेबल आपको वर्तमान समय दिखा रहा है।</string>
+    <string name="help_alarm_set">अलार्म सेट करने के लिए: 1 वे सभी ध्वनियाँ चलाएँ जिन्हें आप सुनना चाहते हैं, इच्छित ध्वनि स्तर और देरी के साथ। 2 फिर स्क्रीन के नीचे \'समय और तारीख चक्र\' से अलार्म का समय और तारीख चुनें। 3 \'अलार्म सेट करें\' बटन पर क्लिक करें। ध्वनियाँ रुक जाएँगी और आपका सेट किया अलार्म समय \'अलार्म का समय\' लेबल पर दिखेगा। ध्वनियाँ और सेटिंग सहेजी जाती हैं और अलार्म समय आने पर फिर चलती हैं।</string>
+    <string name="help_alarm_snooze">\'स्नूज़ बटन\' पर क्लिक करने से अलार्म अस्थायी रूप से शांत हो जाएगा। चुना गया स्नूज़ समय समाप्त होने पर अलार्म वापस आएगा।</string>
+    <string name="help_alarm_alarm_time">\'अलार्म का समय\' लेबल चुना गया अलार्म समय दिखाएगा। लेबल पर क्लिक करने से अलार्म की ध्वनियाँ और अलार्म फ़ंक्शन रुक जाएँगे।</string>
+    <string name="help_alarm_wheel">\'समय और तारीख चक्र\' का उपयोग \'अलार्म सेट करें\' पर क्लिक करने से पहले अलार्म की तारीख और समय चुनने के लिए होता है।</string>
+    <string name="help_timer_title">टाइमर नियंत्रण की व्याख्या</string>
+    <string name="help_timer_keypad">कीपैड की संख्या कुंजियों से वह समय दर्ज करें जिससे टाइमर उलटी गिनती करे।</string>
+    <string name="help_timer_delete">अंक मिटाने के लिए \'मिटाएँ\' बटन का उपयोग करें।</string>
+    <string name="help_timer_controls">\'शुरू करें\' बटन पर क्लिक करके टाइमर शुरू करें। टाइमर शून्य पर पहुँचते ही सभी ध्वनियाँ रुक जाएँगी। \'विराम\' बटन टाइमर रोकता है और \'शुरू करें\' पर फिर क्लिक करके उसे फिर चलाया जा सकता है। समय मिटाने के लिए \'रीसेट\' बटन पर क्लिक करें।</string>
+</resources>

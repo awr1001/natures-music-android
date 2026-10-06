@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Nature\'s Music</string>
+    <string name="playback_channel_name">מנגן צלילים</string>
+    <string name="playback_channel_desc">מוצג בזמן שצלילי הטבע מתערבבים ברקע.</string>
+    <string name="alarm_channel_name">שעון מעורר</string>
+    <string name="alarm_channel_desc">מעיר אותך בשעה שהגדרת.</string>
+    <string name="playback_notification_title">Nature\'s Music</string>
+    <string name="playback_notification_text">הצלילים מתנגנים</string>
+    <string name="stop">עצור</string>
+    <string name="dismiss">סגור</string>
+    <string name="snooze">נודניק</string>
+    <string name="alarm_stop">עצור שעון מעורר</string>
+    <string name="alarm_notification_title">השעון המעורר פועל</string>
+
+    <!-- Categories -->
+    <string name="category_ocean">צליל אוקיינוס</string>
+    <string name="category_lake">צליל אגם</string>
+    <string name="category_river">צליל נהר</string>
+    <string name="category_storm">צליל סערה</string>
+    <string name="category_city">צליל עיר</string>
+    <string name="category_extra">צלילים נוספים</string>
+    <!-- Sounds -->
+    <string name="sound_wind">רוח</string>
+    <string name="sound_seagulls">שחפים</string>
+    <string name="sound_waves_a">גלים A</string>
+    <string name="sound_waves_b">גלים B</string>
+    <string name="sound_waves_c">גלים C</string>
+    <string name="sound_waves_d">גלים D</string>
+    <string name="sound_birds">ציפורים</string>
+    <string name="sound_loons">צוללנים</string>
+    <string name="sound_river_a">נהר A</string>
+    <string name="sound_river_b">נהר B</string>
+    <string name="sound_river_c">נהר C</string>
+    <string name="sound_rain_a">גשם A</string>
+    <string name="sound_rain_b">גשם B</string>
+    <string name="sound_rain_c">גשם C</string>
+    <string name="sound_thunder_a">רעם A</string>
+    <string name="sound_thunder_b">רעם B</string>
+    <string name="sound_city_a">עיר A</string>
+    <string name="sound_traffic_a">תנועה A</string>
+    <string name="sound_traffic_b">תנועה B</string>
+    <string name="sound_trains">רכבות</string>
+    <string name="sound_industrial_a">תעשייתי A</string>
+    <string name="sound_industrial_b">תעשייתי B</string>
+    <string name="sound_steam_punk">סטימפאנק</string>
+    <string name="sound_campfire">מדורה</string>
+    <string name="sound_crickets_a">צרצרים A</string>
+    <string name="sound_crickets_b">צרצרים B</string>
+    <string name="sound_fly">זבוב</string>
+    <string name="sound_frogs">צפרדעים</string>
+    <string name="sound_bomber">מפציץ</string>
+    <string name="sound_bell">פעמון</string>
+    <!-- Screens and buttons -->
+    <string name="alarm">שעון מעורר</string>
+    <string name="timer">טיימר</string>
+    <string name="stop_all_sounds">עצור את כל הצלילים</string>
+    <string name="main_menu">תפריט ראשי</string>
+    <string name="default_setting">הגדרת ברירת מחדל</string>
+    <string name="pause">השהה</string>
+    <string name="start">התחל</string>
+    <string name="reset">איפוס</string>
+    <string name="delete">מחק</string>
+    <string name="set_alarm">כוון שעון מעורר</string>
+    <string name="play">נגן</string>
+    <string name="starting">מתחיל…</string>
+    <string name="try_again">נסה שוב</string>
+    <string name="other_sounds_in_mix">צלילים אחרים עדיין במיקס.</string>
+    <string name="current_time">שעה נוכחית</string>
+    <string name="alarm_time">שעת השעון המעורר</string>
+    <string name="empty_mix_message">הפעילו את הצלילים שתרצו להתעורר אליהם, ואז כוונו שעון מעורר.</string>
+    <string name="alarm_active">שעון מעורר פעיל</string>
+    <string name="snoozed">נודניק...</string>
+    <string name="wheel_today">היום</string>
+    <string name="wheel_tomorrow">מחר</string>
+    <string name="wheel_am">לפנה״צ</string>
+    <string name="wheel_pm">אחה״צ</string>
+    <string name="your_mix">המיקס שלך</string>
+    <string name="error_couldnt_start">לא ניתן להפעיל את הצליל הזה</string>
+    <string name="help_return">חזרה</string>
+    <!-- Formatted labels -->
+    <string name="volume_percent">עוצמת שמע  %1$d%%</string>
+    <string name="delay_seconds">השהיה  %1$d</string>
+    <string name="snooze_minutes">%1$d דק׳</string>
+    <string name="error_couldnt_start_code">לא ניתן להפעיל את הצליל הזה (%1$d/%2$d)</string>
+    <!-- Help -->
+    <string name="help_demo_video">* ניתן לצפות בסרטון הדגמה על ידי הקשה על כפתור קישור YouTube למטה *</string>
+    <string name="help_main_menu_title">הסבר על התפריט הראשי</string>
+    <string name="help_main_menu_categories">לחצו על הכפתור עם שם קטגוריית הצליל שתרצו לשמוע כדי להציג את אפשרויות הצליל.</string>
+    <string name="help_main_menu_stop_all">לחצו על הכפתור \'עצור את כל הצלילים\' כדי לעצור את כל הצלילים המושמעים בכל היישום.</string>
+    <string name="help_sound_title">הסבר על הגדרות הצליל</string>
+    <string name="help_sound_play">כל צליל מושמע בלחיצה על כפתור \'נגן\' המתאים, שמעליו מוצג שם הצליל. הצליל נעצר בלחיצה על אותו כפתור, שעליו כתוב \'עצור\' בזמן שהמערבל מנגן.</string>
+    <string name="help_sound_volume">כוונו את עוצמת השמע של כל צליל על ידי הזזת המחוון שמאלה או ימינה.</string>
+    <string name="help_sound_delay">חלק מהצלילים מציעים אפשרויות של טווח עוצמה וטווח השהיה. הזזת מחוון ההשהיה שמאלה או ימינה קובעת בחירה אקראית של קובצי צליל קצרים שיושמעו בהשהיה בשניות שתבחרו.</string>
+    <string name="help_sound_default">לחצו על הכפתור \'הגדרת ברירת מחדל\' כדי להשמיע סט צלילים מוצע בהגדרות המומלצות.</string>
+    <string name="help_sound_stop_all">לחיצה על הכפתור \'עצור את כל הצלילים\' בראש המסך תעצור את כל הצלילים המושמעים בקטגוריית הצליל.</string>
+    <string name="help_alarm_title">הסבר על פקדי השעון המעורר</string>
+    <string name="help_alarm_current_time">התווית \'שעה נוכחית\' מציגה לך את השעה הנוכחית.</string>
+    <string name="help_alarm_set">כדי לכוון שעון מעורר: 1 נגנו את כל הצלילים שתרצו לשמוע בעוצמה ובהשהיה הרצויות. 2 אחר כך בחרו את שעת השעון המעורר ואת התאריך באמצעות \'גלגל השעה והתאריך\' בתחתית המסך. 3 לחצו על הכפתור \'כוון שעון מעורר\'. הצלילים ייעצרו, ושעת השעון המעורר שהגדרתם תוצג בתווית \'שעת השעון המעורר\'. הצלילים וההגדרות נשמרים ומושמעים כשמגיעה שעת השעון המעורר.</string>
+    <string name="help_alarm_snooze">לחיצה על \'כפתור נודניק\' תשתיק זמנית את השעון המעורר. השעון המעורר יחזור כשזמן הנודניק שנבחר יסתיים.</string>
+    <string name="help_alarm_alarm_time">התווית \'שעת השעון המעורר\' תציג את שעת השעון המעורר שנבחרה. לחיצה על התווית תעצור את צלילי השעון המעורר ואת פעולת השעון המעורר.</string>
+    <string name="help_alarm_wheel">\'גלגל השעה והתאריך\' משמש לבחירת התאריך והשעה של השעון המעורר לפני לחיצה על \'כוון שעון מעורר\'.</string>
+    <string name="help_timer_title">הסבר על פקדי הטיימר</string>
+    <string name="help_timer_keypad">השתמשו במקשי המספרים בלוח המקשים כדי להזין את הזמן שממנו הטיימר יספור לאחור.</string>
+    <string name="help_timer_delete">השתמשו בכפתור \'מחק\' כדי למחוק ספרות.</string>
+    <string name="help_timer_controls">לחצו על הכפתור \'התחל\' כדי להפעיל את הטיימר. כשהטיימר מגיע לאפס, כל הצלילים ייעצרו. הכפתור \'השהה\' עוצר את הטיימר, ואפשר להמשיך אותו בלחיצה נוספת על \'התחל\'. לחצו על הכפתור \'איפוס\' כדי למחוק את הזמן.</string>
+</resources>

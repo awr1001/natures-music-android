@@ -16,6 +16,7 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.geometry.CornerRadius
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.geometry.Size
@@ -23,6 +24,7 @@ import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.aaronroberts.naturesmusic.R
 import com.aaronroberts.naturesmusic.playback.PlayStatus
 import com.aaronroberts.naturesmusic.playback.TrackPlayback
 import com.aaronroberts.naturesmusic.ui.theme.Hairline
@@ -39,11 +41,15 @@ fun TrackMixerRow(
     showDelay: Boolean = false,
     onDelay: (Int) -> Unit = {},
 ) {
+    val stopLabel = stringResource(R.string.stop)
+    val startingLabel = stringResource(R.string.starting)
+    val tryAgainLabel = stringResource(R.string.try_again)
+    val playLabel = stringResource(R.string.play)
     val label = when (playback.status) {
-        PlayStatus.Playing -> "Stop"
-        PlayStatus.Preparing -> "Starting…"
-        PlayStatus.Error -> "Try Again"
-        PlayStatus.Stopped -> "Play"
+        PlayStatus.Playing -> stopLabel
+        PlayStatus.Preparing -> startingLabel
+        PlayStatus.Error -> tryAgainLabel
+        PlayStatus.Stopped -> playLabel
     }
     val live = playback.status == PlayStatus.Playing || playback.status == PlayStatus.Preparing
     val shownVolume = if (live) playback.heardVolume else playback.volume
@@ -57,7 +63,7 @@ fun TrackMixerRow(
             modifier = Modifier.padding(bottom = 8.dp),
         )
         Text(
-            text = "Volume  ${(shownVolume * 100).roundToInt()}%",
+            text = stringResource(R.string.volume_percent, (shownVolume * 100).roundToInt()),
             color = Ink,
             fontSize = 14.sp,
             fontWeight = FontWeight.Bold,
@@ -70,7 +76,7 @@ fun TrackMixerRow(
         )
         if (showDelay) {
             Text(
-                text = "Delay  $shownDelay",
+                text = stringResource(R.string.delay_seconds, shownDelay),
                 color = Ink,
                 fontSize = 14.sp,
                 fontWeight = FontWeight.Bold,

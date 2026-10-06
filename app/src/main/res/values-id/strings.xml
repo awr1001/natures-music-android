@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Nature\'s Music</string>
+    <string name="playback_channel_name">Memutar suara</string>
+    <string name="playback_channel_desc">Ditampilkan saat suara alam dicampur di latar belakang.</string>
+    <string name="alarm_channel_name">Alarm</string>
+    <string name="alarm_channel_desc">Membangunkan Anda pada waktu yang Anda atur.</string>
+    <string name="playback_notification_title">Nature\'s Music</string>
+    <string name="playback_notification_text">Suara sedang diputar</string>
+    <string name="stop">Berhenti</string>
+    <string name="dismiss">Tutup</string>
+    <string name="snooze">Tunda</string>
+    <string name="alarm_stop">Hentikan alarm</string>
+    <string name="alarm_notification_title">Alarm aktif</string>
+
+    <!-- Categories -->
+    <string name="category_ocean">Suara laut</string>
+    <string name="category_lake">Suara danau</string>
+    <string name="category_river">Suara sungai</string>
+    <string name="category_storm">Suara badai</string>
+    <string name="category_city">Suara kota</string>
+    <string name="category_extra">Suara tambahan</string>
+    <!-- Sounds -->
+    <string name="sound_wind">Angin</string>
+    <string name="sound_seagulls">Camar</string>
+    <string name="sound_waves_a">Ombak A</string>
+    <string name="sound_waves_b">Ombak B</string>
+    <string name="sound_waves_c">Ombak C</string>
+    <string name="sound_waves_d">Ombak D</string>
+    <string name="sound_birds">Burung</string>
+    <string name="sound_loons">Loon</string>
+    <string name="sound_river_a">Sungai A</string>
+    <string name="sound_river_b">Sungai B</string>
+    <string name="sound_river_c">Sungai C</string>
+    <string name="sound_rain_a">Hujan A</string>
+    <string name="sound_rain_b">Hujan B</string>
+    <string name="sound_rain_c">Hujan C</string>
+    <string name="sound_thunder_a">Guntur A</string>
+    <string name="sound_thunder_b">Guntur B</string>
+    <string name="sound_city_a">Kota A</string>
+    <string name="sound_traffic_a">Lalu lintas A</string>
+    <string name="sound_traffic_b">Lalu lintas B</string>
+    <string name="sound_trains">Kereta api</string>
+    <string name="sound_industrial_a">Industri A</string>
+    <string name="sound_industrial_b">Industri B</string>
+    <string name="sound_steam_punk">Steampunk</string>
+    <string name="sound_campfire">Api unggun</string>
+    <string name="sound_crickets_a">Jangkrik A</string>
+    <string name="sound_crickets_b">Jangkrik B</string>
+    <string name="sound_fly">Lalat</string>
+    <string name="sound_frogs">Katak</string>
+    <string name="sound_bomber">Pengebom</string>
+    <string name="sound_bell">Lonceng</string>
+    <!-- Screens and buttons -->
+    <string name="alarm">Alarm</string>
+    <string name="timer">Pengatur waktu</string>
+    <string name="stop_all_sounds">Hentikan semua suara</string>
+    <string name="main_menu">Menu utama</string>
+    <string name="default_setting">Setelan bawaan</string>
+    <string name="pause">Jeda</string>
+    <string name="start">Mulai</string>
+    <string name="reset">Atur ulang</string>
+    <string name="delete">Hapus</string>
+    <string name="set_alarm">Setel alarm</string>
+    <string name="play">Putar</string>
+    <string name="starting">Memulai…</string>
+    <string name="try_again">Coba lagi</string>
+    <string name="other_sounds_in_mix">Suara lain masih ada dalam campuran.</string>
+    <string name="current_time">Waktu saat ini</string>
+    <string name="alarm_time">Waktu alarm</string>
+    <string name="empty_mix_message">Mulai suara yang ingin Anda gunakan saat bangun, lalu setel alarm.</string>
+    <string name="alarm_active">Alarm aktif</string>
+    <string name="snoozed">Ditunda...</string>
+    <string name="wheel_today">Hari ini</string>
+    <string name="wheel_tomorrow">Besok</string>
+    <string name="wheel_am">AM</string>
+    <string name="wheel_pm">PM</string>
+    <string name="your_mix">Campuran Anda</string>
+    <string name="error_couldnt_start">Tidak dapat memulai suara ini</string>
+    <string name="help_return">Kembali</string>
+    <!-- Formatted labels -->
+    <string name="volume_percent">Volume  %1$d%%</string>
+    <string name="delay_seconds">Penundaan  %1$d</string>
+    <string name="snooze_minutes">%1$d mnt.</string>
+    <string name="error_couldnt_start_code">Tidak dapat memulai suara ini (%1$d/%2$d)</string>
+    <!-- Help -->
+    <string name="help_demo_video">* Video demonstrasi dapat ditonton dengan mengetuk tombol tautan YouTube di bawah *</string>
+    <string name="help_main_menu_title">Menu utama dijelaskan</string>
+    <string name="help_main_menu_categories">Klik tombol dengan nama kategori suara yang ingin Anda dengar untuk menampilkan pilihan suara.</string>
+    <string name="help_main_menu_stop_all">Klik tombol \'Hentikan semua suara\' untuk menghentikan semua suara yang diputar di seluruh aplikasi.</string>
+    <string name="help_sound_title">Setelan suara dijelaskan</string>
+    <string name="help_sound_play">Setiap suara diputar dengan mengklik tombol \'Putar\' yang sesuai, dengan nama suara di atasnya. Suara berhenti dengan mengklik tombol yang sama lagi; tombol itu menampilkan \'Berhenti\' saat mixer sedang memutar.</string>
+    <string name="help_sound_volume">Sesuaikan volume setiap suara dengan menggeser penggeser ke kiri atau ke kanan.</string>
+    <string name="help_sound_delay">Beberapa suara menyediakan opsi rentang volume dan rentang penundaan. Menggeser penggeser penundaan ke kiri atau ke kanan akan menetapkan pilihan acak berkas suara pendek untuk diputar dengan penundaan dalam detik yang Anda pilih.</string>
+    <string name="help_sound_default">Klik tombol \'Setelan bawaan\' untuk memutar rangkaian suara yang disarankan dengan setelan yang direkomendasikan.</string>
+    <string name="help_sound_stop_all">Mengklik tombol \'Hentikan semua suara\' di bagian atas layar akan menghentikan semua suara yang diputar untuk kategori suara tersebut.</string>
+    <string name="help_alarm_title">Kontrol alarm dijelaskan</string>
+    <string name="help_alarm_current_time">Label \'Waktu saat ini\' menampilkan waktu sekarang kepada Anda.</string>
+    <string name="help_alarm_set">Untuk menyetel alarm: 1 Putar semua suara yang ingin Anda dengar dengan volume dan penundaan yang diinginkan. 2 Lalu pilih waktu dan tanggal alarm dengan \'Roda waktu dan tanggal\' di bagian bawah layar. 3 Klik tombol \'Setel alarm\'. Suara akan berhenti dan waktu alarm yang Anda setel ditampilkan pada label \'Waktu alarm\'. Suara dan setelan disimpan lalu diputar kembali saat waktu alarm tiba.</string>
+    <string name="help_alarm_snooze">Mengklik \'Tombol Tunda\' akan membisukan alarm untuk sementara. Alarm akan kembali setelah waktu tunda yang dipilih habis.</string>
+    <string name="help_alarm_alarm_time">Label \'Waktu alarm\' menampilkan waktu alarm yang dipilih. Mengklik label akan menghentikan suara alarm dan fungsi alarm.</string>
+    <string name="help_alarm_wheel">\'Roda waktu dan tanggal\' digunakan untuk memilih tanggal dan waktu alarm sebelum mengklik \'Setel alarm\'.</string>
+    <string name="help_timer_title">Kontrol pengatur waktu dijelaskan</string>
+    <string name="help_timer_keypad">Gunakan tombol angka pada papan tombol untuk memasukkan waktu yang ingin dihitung mundur oleh pengatur waktu.</string>
+    <string name="help_timer_delete">Gunakan tombol \'Hapus\' untuk menghapus angka.</string>
+    <string name="help_timer_controls">Klik tombol \'Mulai\' untuk memulai pengatur waktu. Saat pengatur waktu mencapai nol, semua suara akan berhenti. Tombol \'Jeda\' menghentikan pengatur waktu dan dapat dilanjutkan dengan mengklik \'Mulai\' lagi. Klik tombol \'Atur ulang\' untuk menghapus waktu.</string>
+</resources>

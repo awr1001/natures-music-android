@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Nature\'s Music</string>
+    <string name="playback_channel_name">正在播放声音</string>
+    <string name="playback_channel_desc">在后台混合自然声音时显示。</string>
+    <string name="alarm_channel_name">闹钟</string>
+    <string name="alarm_channel_desc">在你设置的时间叫醒你。</string>
+    <string name="playback_notification_title">Nature\'s Music</string>
+    <string name="playback_notification_text">正在播放声音</string>
+    <string name="stop">停止</string>
+    <string name="dismiss">关闭</string>
+    <string name="snooze">稍后提醒</string>
+    <string name="alarm_stop">停止闹钟</string>
+    <string name="alarm_notification_title">闹钟已开启</string>
+
+    <!-- Categories -->
+    <string name="category_ocean">海洋声</string>
+    <string name="category_lake">湖声</string>
+    <string name="category_river">河流声</string>
+    <string name="category_storm">暴风雨声</string>
+    <string name="category_city">城市声</string>
+    <string name="category_extra">其他声音</string>
+    <!-- Sounds -->
+    <string name="sound_wind">风</string>
+    <string name="sound_seagulls">海鸥</string>
+    <string name="sound_waves_a">海浪 A</string>
+    <string name="sound_waves_b">海浪 B</string>
+    <string name="sound_waves_c">海浪 C</string>
+    <string name="sound_waves_d">海浪 D</string>
+    <string name="sound_birds">鸟类</string>
+    <string name="sound_loons">潜鸟</string>
+    <string name="sound_river_a">河流 A</string>
+    <string name="sound_river_b">河流 B</string>
+    <string name="sound_river_c">河流 C</string>
+    <string name="sound_rain_a">雨 A</string>
+    <string name="sound_rain_b">雨 B</string>
+    <string name="sound_rain_c">雨 C</string>
+    <string name="sound_thunder_a">雷 A</string>
+    <string name="sound_thunder_b">雷 B</string>
+    <string name="sound_city_a">城市 A</string>
+    <string name="sound_traffic_a">交通 A</string>
+    <string name="sound_traffic_b">交通 B</string>
+    <string name="sound_trains">火车</string>
+    <string name="sound_industrial_a">工业 A</string>
+    <string name="sound_industrial_b">工业 B</string>
+    <string name="sound_steam_punk">蒸汽朋克</string>
+    <string name="sound_campfire">营火</string>
+    <string name="sound_crickets_a">蟋蟀 A</string>
+    <string name="sound_crickets_b">蟋蟀 B</string>
+    <string name="sound_fly">苍蝇</string>
+    <string name="sound_frogs">青蛙</string>
+    <string name="sound_bomber">轰炸机</string>
+    <string name="sound_bell">钟声</string>
+    <!-- Screens and buttons -->
+    <string name="alarm">闹钟</string>
+    <string name="timer">计时器</string>
+    <string name="stop_all_sounds">停止所有声音</string>
+    <string name="main_menu">主菜单</string>
+    <string name="default_setting">默认设置</string>
+    <string name="pause">暂停</string>
+    <string name="start">开始</string>
+    <string name="reset">重置</string>
+    <string name="delete">删除</string>
+    <string name="set_alarm">设置闹钟</string>
+    <string name="play">播放</string>
+    <string name="starting">正在开始…</string>
+    <string name="try_again">重试</string>
+    <string name="other_sounds_in_mix">其他声音仍在混音中。</string>
+    <string name="current_time">当前时间</string>
+    <string name="alarm_time">闹钟时间</string>
+    <string name="empty_mix_message">先播放你想用来醒来的声音，然后设置闹钟。</string>
+    <string name="alarm_active">闹钟已启用</string>
+    <string name="snoozed">已稍后提醒...</string>
+    <string name="wheel_today">今天</string>
+    <string name="wheel_tomorrow">明天</string>
+    <string name="wheel_am">上午</string>
+    <string name="wheel_pm">下午</string>
+    <string name="your_mix">你的混音</string>
+    <string name="error_couldnt_start">无法开始此声音</string>
+    <string name="help_return">返回</string>
+    <!-- Formatted labels -->
+    <string name="volume_percent">音量  %1$d%%</string>
+    <string name="delay_seconds">延迟  %1$d</string>
+    <string name="snooze_minutes">%1$d 分钟</string>
+    <string name="error_couldnt_start_code">无法开始此声音 (%1$d/%2$d)</string>
+    <!-- Help -->
+    <string name="help_demo_video">* 点击下方的 YouTube 链接按钮即可观看演示视频 *</string>
+    <string name="help_main_menu_title">主菜单说明</string>
+    <string name="help_main_menu_categories">点击你想听的声音类别名称按钮，以显示声音选项。</string>
+    <string name="help_main_menu_stop_all">点击“停止所有声音”按钮，停止整个应用中正在播放的所有声音。</string>
+    <string name="help_sound_title">声音设置说明</string>
+    <string name="help_sound_play">每个声音通过点击对应的“播放”按钮播放，声音名称显示在按钮上方。再次点击同一按钮可停止该声音；混音器播放时，按钮上显示“停止”。</string>
+    <string name="help_sound_volume">左右移动滑块，调节每个声音的音量。</string>
+    <string name="help_sound_delay">有些声音提供音量范围和延迟范围选项。左右调节延迟滑块，会按你选择的秒数延迟，随机播放一组短声音文件。</string>
+    <string name="help_sound_default">点击“默认设置”按钮，以建议的设置播放一组推荐声音。</string>
+    <string name="help_sound_stop_all">点击屏幕顶部的“停止所有声音”按钮，将停止该声音类别中正在播放的所有声音。</string>
+    <string name="help_alarm_title">闹钟控制说明</string>
+    <string name="help_alarm_current_time">“当前时间”标签向你显示现在的时间。</string>
+    <string name="help_alarm_set">设置闹钟的方法：1 以所需的音量和延迟播放你想听到的所有声音。2 然后用屏幕底部的“时间和日期滚轮”选择闹钟的时间和日期。3 点击“设置闹钟”按钮。声音将停止，你设置的闹钟时间会显示在“闹钟时间”标签处。声音和设置会被保存，并在闹钟时间到达时重新播放。</string>
+    <string name="help_alarm_snooze">点击“稍后提醒按钮”会暂时使闹钟静音。所选的稍后提醒时间结束后，闹钟会再次响起。</string>
+    <string name="help_alarm_alarm_time">“闹钟时间”标签会显示所选的闹钟时间。点击该标签将停止闹钟声音和闹钟功能。</string>
+    <string name="help_alarm_wheel">在点击“设置闹钟”之前，使用“时间和日期滚轮”选择闹钟的日期和时间。</string>
+    <string name="help_timer_title">计时器控制说明</string>
+    <string name="help_timer_keypad">用键盘上的数字键输入你希望计时器开始倒数的时间。</string>
+    <string name="help_timer_delete">使用“删除”按钮清除数字。</string>
+    <string name="help_timer_controls">点击“开始”按钮启动计时器。计时器到达零时，所有声音都会停止。“暂停”按钮会停下计时器，再次点击“开始”可以继续。点击“重置”按钮可清除时间。</string>
+</resources>

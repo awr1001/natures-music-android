@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Nature\'s Music</string>
+    <string name="playback_channel_name">Odtwarzanie dźwięków</string>
+    <string name="playback_channel_desc">Wyświetlane, gdy dźwięki natury są miksowane w tle.</string>
+    <string name="alarm_channel_name">Alarm</string>
+    <string name="alarm_channel_desc">Budzi cię o ustawionej godzinie.</string>
+    <string name="playback_notification_title">Nature\'s Music</string>
+    <string name="playback_notification_text">Dźwięki są odtwarzane</string>
+    <string name="stop">Stop</string>
+    <string name="dismiss">Odrzuć</string>
+    <string name="snooze">Drzemka</string>
+    <string name="alarm_stop">Zatrzymaj alarm</string>
+    <string name="alarm_notification_title">Alarm włączony</string>
+
+    <!-- Categories -->
+    <string name="category_ocean">Dźwięk oceanu</string>
+    <string name="category_lake">Dźwięk jeziora</string>
+    <string name="category_river">Dźwięk rzeki</string>
+    <string name="category_storm">Dźwięk burzy</string>
+    <string name="category_city">Dźwięk miasta</string>
+    <string name="category_extra">Dodatkowe dźwięki</string>
+    <!-- Sounds -->
+    <string name="sound_wind">Wiatr</string>
+    <string name="sound_seagulls">Mewy</string>
+    <string name="sound_waves_a">Fale A</string>
+    <string name="sound_waves_b">Fale B</string>
+    <string name="sound_waves_c">Fale C</string>
+    <string name="sound_waves_d">Fale D</string>
+    <string name="sound_birds">Ptaki</string>
+    <string name="sound_loons">Nury</string>
+    <string name="sound_river_a">Rzeka A</string>
+    <string name="sound_river_b">Rzeka B</string>
+    <string name="sound_river_c">Rzeka C</string>
+    <string name="sound_rain_a">Deszcz A</string>
+    <string name="sound_rain_b">Deszcz B</string>
+    <string name="sound_rain_c">Deszcz C</string>
+    <string name="sound_thunder_a">Grzmot A</string>
+    <string name="sound_thunder_b">Grzmot B</string>
+    <string name="sound_city_a">Miasto A</string>
+    <string name="sound_traffic_a">Ruch A</string>
+    <string name="sound_traffic_b">Ruch B</string>
+    <string name="sound_trains">Pociągi</string>
+    <string name="sound_industrial_a">Przemysłowy A</string>
+    <string name="sound_industrial_b">Przemysłowy B</string>
+    <string name="sound_steam_punk">Steampunk</string>
+    <string name="sound_campfire">Ognisko</string>
+    <string name="sound_crickets_a">Świerszcze A</string>
+    <string name="sound_crickets_b">Świerszcze B</string>
+    <string name="sound_fly">Mucha</string>
+    <string name="sound_frogs">Żaby</string>
+    <string name="sound_bomber">Bombowiec</string>
+    <string name="sound_bell">Dzwon</string>
+    <!-- Screens and buttons -->
+    <string name="alarm">Alarm</string>
+    <string name="timer">Minutnik</string>
+    <string name="stop_all_sounds">Zatrzymaj wszystkie dźwięki</string>
+    <string name="main_menu">Menu główne</string>
+    <string name="default_setting">Ustawienie domyślne</string>
+    <string name="pause">Pauza</string>
+    <string name="start">Start</string>
+    <string name="reset">Resetuj</string>
+    <string name="delete">Usuń</string>
+    <string name="set_alarm">Ustaw alarm</string>
+    <string name="play">Odtwórz</string>
+    <string name="starting">Uruchamianie…</string>
+    <string name="try_again">Spróbuj ponownie</string>
+    <string name="other_sounds_in_mix">Inne dźwięki są nadal w miksie.</string>
+    <string name="current_time">Bieżący czas</string>
+    <string name="alarm_time">Godzina alarmu</string>
+    <string name="empty_mix_message">Uruchom dźwięki, przy których chcesz się obudzić, a następnie ustaw alarm.</string>
+    <string name="alarm_active">Alarm aktywny</string>
+    <string name="snoozed">Drzemka...</string>
+    <string name="wheel_today">Dzisiaj</string>
+    <string name="wheel_tomorrow">Jutro</string>
+    <string name="wheel_am">AM</string>
+    <string name="wheel_pm">PM</string>
+    <string name="your_mix">Twój miks</string>
+    <string name="error_couldnt_start">Nie udało się uruchomić tego dźwięku</string>
+    <string name="help_return">Wróć</string>
+    <!-- Formatted labels -->
+    <string name="volume_percent">Głośność  %1$d%%</string>
+    <string name="delay_seconds">Opóźnienie  %1$d</string>
+    <string name="snooze_minutes">%1$d min.</string>
+    <string name="error_couldnt_start_code">Nie udało się uruchomić tego dźwięku (%1$d/%2$d)</string>
+    <!-- Help -->
+    <string name="help_demo_video">* Film demonstracyjny można obejrzeć, stukając poniższy przycisk łącza YouTube *</string>
+    <string name="help_main_menu_title">Objaśnienie menu głównego</string>
+    <string name="help_main_menu_categories">Kliknij przycisk z nazwą kategorii dźwięku, którego chcesz słuchać, aby wyświetlić opcje dźwięku.</string>
+    <string name="help_main_menu_stop_all">Kliknij przycisk \'Zatrzymaj wszystkie dźwięki\', aby zatrzymać wszystkie dźwięki odtwarzane w całej aplikacji.</string>
+    <string name="help_sound_title">Objaśnienie ustawień dźwięku</string>
+    <string name="help_sound_play">Każdy dźwięk jest odtwarzany po kliknięciu odpowiedniego przycisku \'Odtwórz\', nad którym widnieje nazwa dźwięku. Dźwięk zatrzymuje się po ponownym kliknięciu tego samego przycisku; gdy mikser gra, widnieje na nim \'Stop\'.</string>
+    <string name="help_sound_volume">Dostosuj głośność każdego dźwięku, przesuwając suwak w lewo lub w prawo.</string>
+    <string name="help_sound_delay">Niektóre dźwięki mają opcje zakresu głośności i zakresu opóźnienia. Przesunięcie suwaka opóźnienia w lewo lub w prawo ustawia losowy wybór krótkich plików dźwiękowych odtwarzanych z wybranym przez ciebie opóźnieniem w sekundach.</string>
+    <string name="help_sound_default">Kliknij przycisk \'Ustawienie domyślne\', aby odtworzyć sugerowany zestaw dźwięków z zalecanymi ustawieniami.</string>
+    <string name="help_sound_stop_all">Kliknięcie przycisku \'Zatrzymaj wszystkie dźwięki\' u góry ekranu zatrzyma wszystkie dźwięki odtwarzane w danej kategorii.</string>
+    <string name="help_alarm_title">Objaśnienie sterowania alarmem</string>
+    <string name="help_alarm_current_time">Etykieta \'Bieżący czas\' pokazuje ci aktualną godzinę.</string>
+    <string name="help_alarm_set">Aby ustawić alarm: 1 Odtwórz wszystkie dźwięki, które chcesz usłyszeć, z wybraną głośnością i opóźnieniem. 2 Następnie wybierz godzinę i datę alarmu za pomocą \'Koła godziny i daty\' na dole ekranu. 3 Kliknij przycisk \'Ustaw alarm\'. Dźwięki się zatrzymają, a ustawiona godzina alarmu pojawi się przy etykiecie \'Godzina alarmu\'. Dźwięki i ustawienia są zapisywane i odtwarzane ponownie, gdy nadejdzie godzina alarmu.</string>
+    <string name="help_alarm_snooze">Kliknięcie \'Przycisku Drzemka\' tymczasowo wyciszy alarm. Alarm wróci po upływie wybranego czasu drzemki.</string>
+    <string name="help_alarm_alarm_time">Etykieta \'Godzina alarmu\' pokaże wybraną godzinę alarmu. Kliknięcie etykiety zatrzyma dźwięki alarmu i funkcję alarmu.</string>
+    <string name="help_alarm_wheel">\'Koło godziny i daty\' służy do wybrania daty i godziny alarmu przed kliknięciem \'Ustaw alarm\'.</string>
+    <string name="help_timer_title">Objaśnienie sterowania minutnikiem</string>
+    <string name="help_timer_keypad">Użyj klawiszy numerycznych na klawiaturze, aby wpisać czas, od którego minutnik ma odliczać.</string>
+    <string name="help_timer_delete">Użyj przycisku \'Usuń\', aby wymazać cyfry.</string>
+    <string name="help_timer_controls">Kliknij przycisk \'Start\', aby uruchomić minutnik. Gdy minutnik dojdzie do zera, wszystkie dźwięki zostaną zatrzymane. Przycisk \'Pauza\' zatrzymuje minutnik; można go wznowić, klikając ponownie \'Start\'. Kliknij przycisk \'Resetuj\', aby wymazać czas.</string>
+</resources>

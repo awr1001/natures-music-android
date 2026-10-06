@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Nature\'s Music</string>
+    <string name="playback_channel_name">تشغيل الأصوات</string>
+    <string name="playback_channel_desc">يظهر أثناء مزج أصوات الطبيعة في الخلفية.</string>
+    <string name="alarm_channel_name">المنبه</string>
+    <string name="alarm_channel_desc">يوقظك في الوقت الذي تحدده.</string>
+    <string name="playback_notification_title">Nature\'s Music</string>
+    <string name="playback_notification_text">الأصوات تعمل</string>
+    <string name="stop">إيقاف</string>
+    <string name="dismiss">تجاهل</string>
+    <string name="snooze">غفوة</string>
+    <string name="alarm_stop">إيقاف المنبه</string>
+    <string name="alarm_notification_title">المنبه يعمل</string>
+
+    <!-- Categories -->
+    <string name="category_ocean">صوت المحيط</string>
+    <string name="category_lake">صوت البحيرة</string>
+    <string name="category_river">صوت النهر</string>
+    <string name="category_storm">صوت العاصفة</string>
+    <string name="category_city">صوت المدينة</string>
+    <string name="category_extra">أصوات إضافية</string>
+    <!-- Sounds -->
+    <string name="sound_wind">رياح</string>
+    <string name="sound_seagulls">نوارس</string>
+    <string name="sound_waves_a">أمواج A</string>
+    <string name="sound_waves_b">أمواج B</string>
+    <string name="sound_waves_c">أمواج C</string>
+    <string name="sound_waves_d">أمواج D</string>
+    <string name="sound_birds">طيور</string>
+    <string name="sound_loons">غواص</string>
+    <string name="sound_river_a">نهر A</string>
+    <string name="sound_river_b">نهر B</string>
+    <string name="sound_river_c">نهر C</string>
+    <string name="sound_rain_a">مطر A</string>
+    <string name="sound_rain_b">مطر B</string>
+    <string name="sound_rain_c">مطر C</string>
+    <string name="sound_thunder_a">رعد A</string>
+    <string name="sound_thunder_b">رعد B</string>
+    <string name="sound_city_a">مدينة A</string>
+    <string name="sound_traffic_a">مرور A</string>
+    <string name="sound_traffic_b">مرور B</string>
+    <string name="sound_trains">قطارات</string>
+    <string name="sound_industrial_a">صناعي A</string>
+    <string name="sound_industrial_b">صناعي B</string>
+    <string name="sound_steam_punk">ستيم بانك</string>
+    <string name="sound_campfire">نار المخيم</string>
+    <string name="sound_crickets_a">صراصير A</string>
+    <string name="sound_crickets_b">صراصير B</string>
+    <string name="sound_fly">ذبابة</string>
+    <string name="sound_frogs">ضفادع</string>
+    <string name="sound_bomber">قاذفة</string>
+    <string name="sound_bell">جرس</string>
+    <!-- Screens and buttons -->
+    <string name="alarm">المنبه</string>
+    <string name="timer">المؤقت</string>
+    <string name="stop_all_sounds">إيقاف كل الأصوات</string>
+    <string name="main_menu">القائمة الرئيسية</string>
+    <string name="default_setting">الإعداد الافتراضي</string>
+    <string name="pause">إيقاف مؤقت</string>
+    <string name="start">بدء</string>
+    <string name="reset">إعادة تعيين</string>
+    <string name="delete">حذف</string>
+    <string name="set_alarm">ضبط المنبه</string>
+    <string name="play">تشغيل</string>
+    <string name="starting">جارٍ البدء…</string>
+    <string name="try_again">حاول مرة أخرى</string>
+    <string name="other_sounds_in_mix">لا تزال أصوات أخرى في المزيج.</string>
+    <string name="current_time">الوقت الحالي</string>
+    <string name="alarm_time">وقت المنبه</string>
+    <string name="empty_mix_message">ابدأ الأصوات التي تريد أن تستيقظ عليها، ثم اضبط المنبه.</string>
+    <string name="alarm_active">المنبه نشط</string>
+    <string name="snoozed">غفوة...</string>
+    <string name="wheel_today">اليوم</string>
+    <string name="wheel_tomorrow">غدًا</string>
+    <string name="wheel_am">ص</string>
+    <string name="wheel_pm">م</string>
+    <string name="your_mix">مزيجك</string>
+    <string name="error_couldnt_start">تعذر بدء هذا الصوت</string>
+    <string name="help_return">رجوع</string>
+    <!-- Formatted labels -->
+    <string name="volume_percent">مستوى الصوت  %1$d%%</string>
+    <string name="delay_seconds">تأخير  %1$d</string>
+    <string name="snooze_minutes">%1$d د</string>
+    <string name="error_couldnt_start_code">تعذر بدء هذا الصوت (%1$d/%2$d)</string>
+    <!-- Help -->
+    <string name="help_demo_video">* يمكن مشاهدة فيديو توضيحي بالضغط على زر رابط YouTube أدناه *</string>
+    <string name="help_main_menu_title">شرح القائمة الرئيسية</string>
+    <string name="help_main_menu_categories">انقر الزر الذي يحمل اسم فئة الصوت التي تريد سماعها لعرض خيارات الصوت.</string>
+    <string name="help_main_menu_stop_all">انقر زر \'إيقاف كل الأصوات\' لإيقاف كل الأصوات التي تعمل في التطبيق بأكمله.</string>
+    <string name="help_sound_title">شرح إعدادات الصوت</string>
+    <string name="help_sound_play">يُشغَّل كل صوت بالنقر على زر \'تشغيل\' المقابل، ويظهر اسم الصوت فوقه. يتوقف الصوت بالنقر على الزر نفسه مرة أخرى، ويظهر عليه \'إيقاف\' أثناء تشغيل المازج.</string>
+    <string name="help_sound_volume">اضبط مستوى صوت كل صوت بتحريك المنزلق إلى اليسار أو اليمين.</string>
+    <string name="help_sound_delay">توفر بعض الأصوات خيارات لنطاق مستوى الصوت ونطاق التأخير. تحريك منزلق التأخير يسارًا أو يمينًا يضبط اختيارًا عشوائيًا لملفات صوت قصيرة تُشغَّل بتأخير بالثواني تحدده.</string>
+    <string name="help_sound_default">انقر زر \'الإعداد الافتراضي\' لتشغيل مجموعة أصوات مقترحة بالإعدادات الموصى بها.</string>
+    <string name="help_sound_stop_all">النقر على زر \'إيقاف كل الأصوات\' أعلى الشاشة يوقف كل الأصوات التي تعمل لفئة الصوت.</string>
+    <string name="help_alarm_title">شرح عناصر تحكم المنبه</string>
+    <string name="help_alarm_current_time">تعرض لك تسمية \'الوقت الحالي\' الوقت الحاضر.</string>
+    <string name="help_alarm_set">لضبط المنبه: 1 شغّل كل الأصوات التي تريد سماعها بمستوى الصوت والتأخير المطلوبين. 2 ثم اختر وقت المنبه وتاريخه باستخدام \'عجلة الوقت والتاريخ\' أسفل الشاشة. 3 انقر زر \'ضبط المنبه\'. ستتوقف الأصوات ويظهر وقت المنبه الذي حددته عند تسمية \'وقت المنبه\'. تُحفظ الأصوات والإعدادات وتُعاد عند حلول وقت المنبه.</string>
+    <string name="help_alarm_snooze">النقر على \'زر الغفوة\' يُسكت المنبه مؤقتًا. يعود المنبه بعد انتهاء وقت الغفوة المحدد.</string>
+    <string name="help_alarm_alarm_time">تعرض تسمية \'وقت المنبه\' وقت المنبه المحدد. النقر على التسمية يوقف أصوات المنبه ووظيفة المنبه.</string>
+    <string name="help_alarm_wheel">تُستخدم \'عجلة الوقت والتاريخ\' لاختيار تاريخ المنبه ووقته قبل النقر على \'ضبط المنبه\'.</string>
+    <string name="help_timer_title">شرح عناصر تحكم المؤقت</string>
+    <string name="help_timer_keypad">استخدم مفاتيح الأرقام في لوحة المفاتيح لإدخال الوقت الذي تريد أن يعد المؤقت تنازليًا منه.</string>
+    <string name="help_timer_delete">استخدم زر \'حذف\' لمسح الأرقام.</string>
+    <string name="help_timer_controls">انقر زر \'بدء\' لبدء المؤقت. عندما يصل المؤقت إلى الصفر، تتوقف كل الأصوات. زر \'إيقاف مؤقت\' يوقف المؤقت، ويمكن استئنافه بالنقر على \'بدء\' مرة أخرى. انقر زر \'إعادة تعيين\' لمسح الوقت.</string>
+</resources>

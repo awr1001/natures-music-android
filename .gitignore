@@ -26,3 +26,7 @@ out/
 .raw-batches/
 .shots/
 .kotlin/
+
+signing.properties
+play/*.jks
+play/*.pem

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Nature\'s Music</string>
+    <string name="playback_channel_name">Воспроизведение звуков</string>
+    <string name="playback_channel_desc">Показывается, пока звуки природы смешиваются в фоновом режиме.</string>
+    <string name="alarm_channel_name">Будильник</string>
+    <string name="alarm_channel_desc">Будит вас в заданное время.</string>
+    <string name="playback_notification_title">Nature\'s Music</string>
+    <string name="playback_notification_text">Звуки воспроизводятся</string>
+    <string name="stop">Стоп</string>
+    <string name="dismiss">Закрыть</string>
+    <string name="snooze">Отложить</string>
+    <string name="alarm_stop">Остановить будильник</string>
+    <string name="alarm_notification_title">Будильник включён</string>
+
+    <!-- Categories -->
+    <string name="category_ocean">Звук океана</string>
+    <string name="category_lake">Звук озера</string>
+    <string name="category_river">Звук реки</string>
+    <string name="category_storm">Звук грозы</string>
+    <string name="category_city">Звук города</string>
+    <string name="category_extra">Дополнительные звуки</string>
+    <!-- Sounds -->
+    <string name="sound_wind">Ветер</string>
+    <string name="sound_seagulls">Чайки</string>
+    <string name="sound_waves_a">Волны A</string>
+    <string name="sound_waves_b">Волны B</string>
+    <string name="sound_waves_c">Волны C</string>
+    <string name="sound_waves_d">Волны D</string>
+    <string name="sound_birds">Птицы</string>
+    <string name="sound_loons">Гагары</string>
+    <string name="sound_river_a">Река A</string>
+    <string name="sound_river_b">Река B</string>
+    <string name="sound_river_c">Река C</string>
+    <string name="sound_rain_a">Дождь A</string>
+    <string name="sound_rain_b">Дождь B</string>
+    <string name="sound_rain_c">Дождь C</string>
+    <string name="sound_thunder_a">Гром A</string>
+    <string name="sound_thunder_b">Гром B</string>
+    <string name="sound_city_a">Город A</string>
+    <string name="sound_traffic_a">Транспорт A</string>
+    <string name="sound_traffic_b">Транспорт B</string>
+    <string name="sound_trains">Поезда</string>
+    <string name="sound_industrial_a">Промышленный A</string>
+    <string name="sound_industrial_b">Промышленный B</string>
+    <string name="sound_steam_punk">Стимпанк</string>
+    <string name="sound_campfire">Костёр</string>
+    <string name="sound_crickets_a">Сверчки A</string>
+    <string name="sound_crickets_b">Сверчки B</string>
+    <string name="sound_fly">Муха</string>
+    <string name="sound_frogs">Лягушки</string>
+    <string name="sound_bomber">Бомбардировщик</string>
+    <string name="sound_bell">Колокол</string>
+    <!-- Screens and buttons -->
+    <string name="alarm">Будильник</string>
+    <string name="timer">Таймер</string>
+    <string name="stop_all_sounds">Остановить все звуки</string>
+    <string name="main_menu">Главное меню</string>
+    <string name="default_setting">Настройка по умолчанию</string>
+    <string name="pause">Пауза</string>
+    <string name="start">Старт</string>
+    <string name="reset">Сброс</string>
+    <string name="delete">Удалить</string>
+    <string name="set_alarm">Поставить будильник</string>
+    <string name="play">Воспроизвести</string>
+    <string name="starting">Запуск…</string>
+    <string name="try_again">Повторить</string>
+    <string name="other_sounds_in_mix">Другие звуки всё ещё в миксе.</string>
+    <string name="current_time">Текущее время</string>
+    <string name="alarm_time">Время будильника</string>
+    <string name="empty_mix_message">Запустите звуки, под которые хотите проснуться, затем поставьте будильник.</string>
+    <string name="alarm_active">Будильник активен</string>
+    <string name="snoozed">Отложено...</string>
+    <string name="wheel_today">Сегодня</string>
+    <string name="wheel_tomorrow">Завтра</string>
+    <string name="wheel_am">AM</string>
+    <string name="wheel_pm">PM</string>
+    <string name="your_mix">Ваш микс</string>
+    <string name="error_couldnt_start">Не удалось запустить этот звук</string>
+    <string name="help_return">Назад</string>
+    <!-- Formatted labels -->
+    <string name="volume_percent">Громкость  %1$d%%</string>
+    <string name="delay_seconds">Задержка  %1$d</string>
+    <string name="snooze_minutes">%1$d мин.</string>
+    <string name="error_couldnt_start_code">Не удалось запустить этот звук (%1$d/%2$d)</string>
+    <!-- Help -->
+    <string name="help_demo_video">* Демонстрационное видео можно посмотреть, нажав кнопку ссылки YouTube ниже *</string>
+    <string name="help_main_menu_title">Пояснение главного меню</string>
+    <string name="help_main_menu_categories">Нажмите кнопку с названием категории звуков, которые хотите услышать, чтобы показать варианты звуков.</string>
+    <string name="help_main_menu_stop_all">Нажмите кнопку «Остановить все звуки», чтобы остановить все звуки во всём приложении.</string>
+    <string name="help_sound_title">Пояснение настроек звука</string>
+    <string name="help_sound_play">Каждый звук воспроизводится нажатием соответствующей кнопки «Воспроизвести», над которой показано название звука. Звук останавливается повторным нажатием той же кнопки: пока микшер играет, на ней написано «Стоп».</string>
+    <string name="help_sound_volume">Отрегулируйте громкость каждого звука, перемещая ползунок влево или вправо.</string>
+    <string name="help_sound_delay">Некоторые звуки имеют параметры диапазона громкости и диапазона задержки. Перемещение ползунка задержки влево или вправо задаёт случайный набор коротких звуковых файлов, которые будут воспроизводиться с выбранной вами задержкой в секундах.</string>
+    <string name="help_sound_default">Нажмите кнопку «Настройка по умолчанию», чтобы воспроизвести предложенный набор звуков с рекомендуемыми параметрами.</string>
+    <string name="help_sound_stop_all">Нажатие кнопки «Остановить все звуки» вверху экрана остановит все звуки, воспроизводимые в этой категории.</string>
+    <string name="help_alarm_title">Пояснение управления будильником</string>
+    <string name="help_alarm_current_time">Надпись «Текущее время» показывает вам настоящее время.</string>
+    <string name="help_alarm_set">Чтобы поставить будильник: 1 Воспроизведите все звуки, которые хотите слышать, с нужной громкостью и задержкой. 2 Затем выберите время и дату будильника с помощью «Колеса времени и даты» внизу экрана. 3 Нажмите кнопку «Поставить будильник». Звуки остановятся, а заданное время будильника появится у надписи «Время будильника». Звуки и параметры сохраняются и воспроизводятся, когда наступает время будильника.</string>
+    <string name="help_alarm_snooze">Нажатие «Кнопки Отложить» временно отключает звук будильника. Будильник снова сработает, когда выбранное время отсрочки истечёт.</string>
+    <string name="help_alarm_alarm_time">Надпись «Время будильника» показывает выбранное время будильника. Нажатие на надпись остановит звуки будильника и функцию будильника.</string>
+    <string name="help_alarm_wheel">«Колесо времени и даты» используется для выбора даты и времени будильника перед нажатием «Поставить будильник».</string>
+    <string name="help_timer_title">Пояснение управления таймером</string>
+    <string name="help_timer_keypad">Используйте цифровые клавиши на клавиатуре, чтобы ввести время, от которого таймер должен вести обратный отсчёт.</string>
+    <string name="help_timer_delete">Используйте кнопку «Удалить», чтобы стереть цифры.</string>
+    <string name="help_timer_controls">Нажмите кнопку «Старт», чтобы запустить таймер. Когда таймер дойдёт до нуля, все звуки будут остановлены. Кнопка «Пауза» останавливает таймер; его можно продолжить, снова нажав «Старт». Нажмите кнопку «Сброс», чтобы стереть время.</string>
+</resources>

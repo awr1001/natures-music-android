@@ -5,6 +5,7 @@ import android.app.NotificationChannel
 import android.app.NotificationManager
 import android.app.PendingIntent
 import android.app.Service
+import android.content.Context
 import android.content.Intent
 import android.content.pm.ServiceInfo
 import android.os.Build
@@ -108,7 +109,7 @@ class AlarmService : Service() {
         return NotificationCompat.Builder(this, CHANNEL_ID)
             .setSmallIcon(R.drawable.ic_stat_wave)
             .setContentTitle(getString(R.string.alarm_notification_title))
-            .setContentText(mixLabel(NaturesMusicApplication.instance.alarmStore.mix))
+            .setContentText(mixLabel(this, NaturesMusicApplication.instance.alarmStore.mix))
             .setCategory(NotificationCompat.CATEGORY_ALARM)
             .setPriority(NotificationCompat.PRIORITY_MAX)
             .setFullScreenIntent(fullScreen, true)
@@ -139,9 +140,11 @@ class AlarmService : Service() {
         const val ACTION_DISMISS = "com.aaronroberts.naturesmusic.DISMISS_ALARM"
         const val ACTION_SNOOZE = "com.aaronroberts.naturesmusic.SNOOZE_ALARM"
 
-        fun mixLabel(mix: List<AlarmMixer>): String {
-            val names = mix.mapNotNull { SoundCatalog.track(it.id)?.displayName }
-            return if (names.isEmpty()) "Your mix" else names.joinToString(", ")
+        fun mixLabel(context: Context, mix: List<AlarmMixer>): String {
+            val names = mix.mapNotNull { item ->
+                SoundCatalog.track(item.id)?.displayNameRes?.let(context::getString)
+            }
+            return if (names.isEmpty()) context.getString(R.string.your_mix) else names.joinToString(", ")
         }
     }
 }

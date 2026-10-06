@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Nature\'s Music</string>
+    <string name="playback_channel_name">শব্দ বাজছে</string>
+    <string name="playback_channel_desc">প্রকৃতির শব্দ পটভূমিতে মেশানোর সময় দেখানো হয়।</string>
+    <string name="alarm_channel_name">অ্যালার্ম</string>
+    <string name="alarm_channel_desc">আপনি যে সময় সেট করেন, সেই সময়ে জাগায়।</string>
+    <string name="playback_notification_title">Nature\'s Music</string>
+    <string name="playback_notification_text">শব্দ বাজছে</string>
+    <string name="stop">বন্ধ</string>
+    <string name="dismiss">বাতিল</string>
+    <string name="snooze">স্নুজ</string>
+    <string name="alarm_stop">অ্যালার্ম বন্ধ</string>
+    <string name="alarm_notification_title">অ্যালার্ম চালু আছে</string>
+
+    <!-- Categories -->
+    <string name="category_ocean">সমুদ্রের শব্দ</string>
+    <string name="category_lake">হ্রদের শব্দ</string>
+    <string name="category_river">নদীর শব্দ</string>
+    <string name="category_storm">ঝড়ের শব্দ</string>
+    <string name="category_city">শহরের শব্দ</string>
+    <string name="category_extra">অতিরিক্ত শব্দ</string>
+    <!-- Sounds -->
+    <string name="sound_wind">বাতাস</string>
+    <string name="sound_seagulls">সীগাল</string>
+    <string name="sound_waves_a">ঢেউ A</string>
+    <string name="sound_waves_b">ঢেউ B</string>
+    <string name="sound_waves_c">ঢেউ C</string>
+    <string name="sound_waves_d">ঢেউ D</string>
+    <string name="sound_birds">পাখি</string>
+    <string name="sound_loons">লুন</string>
+    <string name="sound_river_a">নদী A</string>
+    <string name="sound_river_b">নদী B</string>
+    <string name="sound_river_c">নদী C</string>
+    <string name="sound_rain_a">বৃষ্টি A</string>
+    <string name="sound_rain_b">বৃষ্টি B</string>
+    <string name="sound_rain_c">বৃষ্টি C</string>
+    <string name="sound_thunder_a">বজ্র A</string>
+    <string name="sound_thunder_b">বজ্র B</string>
+    <string name="sound_city_a">শহর A</string>
+    <string name="sound_traffic_a">ট্রাফিক A</string>
+    <string name="sound_traffic_b">ট্রাফিক B</string>
+    <string name="sound_trains">ট্রেন</string>
+    <string name="sound_industrial_a">শিল্প A</string>
+    <string name="sound_industrial_b">শিল্প B</string>
+    <string name="sound_steam_punk">স্টিমপাঙ্ক</string>
+    <string name="sound_campfire">শিবিরের আগুন</string>
+    <string name="sound_crickets_a">ঝিঁঝিঁ A</string>
+    <string name="sound_crickets_b">ঝিঁঝিঁ B</string>
+    <string name="sound_fly">মাছি</string>
+    <string name="sound_frogs">ব্যাঙ</string>
+    <string name="sound_bomber">বোমারু</string>
+    <string name="sound_bell">ঘণ্টা</string>
+    <!-- Screens and buttons -->
+    <string name="alarm">অ্যালার্ম</string>
+    <string name="timer">টাইমার</string>
+    <string name="stop_all_sounds">সব শব্দ বন্ধ</string>
+    <string name="main_menu">প্রধান মেনু</string>
+    <string name="default_setting">ডিফল্ট সেটিং</string>
+    <string name="pause">বিরতি</string>
+    <string name="start">শুরু</string>
+    <string name="reset">রিসেট</string>
+    <string name="delete">মুছুন</string>
+    <string name="set_alarm">অ্যালার্ম সেট করুন</string>
+    <string name="play">চালান</string>
+    <string name="starting">শুরু হচ্ছে…</string>
+    <string name="try_again">আবার চেষ্টা করুন</string>
+    <string name="other_sounds_in_mix">অন্য শব্দ এখনও মিক্সে আছে।</string>
+    <string name="current_time">বর্তমান সময়</string>
+    <string name="alarm_time">অ্যালার্মের সময়</string>
+    <string name="empty_mix_message">যে শব্দে ঘুম থেকে উঠতে চান সেগুলো চালু করুন, তারপর অ্যালার্ম সেট করুন।</string>
+    <string name="alarm_active">অ্যালার্ম সক্রিয়</string>
+    <string name="snoozed">স্নুজ করা হয়েছে...</string>
+    <string name="wheel_today">আজ</string>
+    <string name="wheel_tomorrow">আগামীকাল</string>
+    <string name="wheel_am">AM</string>
+    <string name="wheel_pm">PM</string>
+    <string name="your_mix">আপনার মিক্স</string>
+    <string name="error_couldnt_start">এই শব্দ শুরু করা যায়নি</string>
+    <string name="help_return">ফিরুন</string>
+    <!-- Formatted labels -->
+    <string name="volume_percent">ভলিউম  %1$d%%</string>
+    <string name="delay_seconds">বিলম্ব  %1$d</string>
+    <string name="snooze_minutes">%1$d মি.</string>
+    <string name="error_couldnt_start_code">এই শব্দ শুরু করা যায়নি (%1$d/%2$d)</string>
+    <!-- Help -->
+    <string name="help_demo_video">* নিচের YouTube লিংক বোতামে ট্যাপ করে একটি প্রদর্শনী ভিডিও দেখা যাবে *</string>
+    <string name="help_main_menu_title">প্রধান মেনুর ব্যাখ্যা</string>
+    <string name="help_main_menu_categories">যে শব্দের বিভাগ শুনতে চান, সেই নামের বোতামে ক্লিক করুন শব্দের বিকল্প দেখতে।</string>
+    <string name="help_main_menu_stop_all">\'সব শব্দ বন্ধ\' বোতামে ক্লিক করুন পুরো অ্যাপে বাজা সব শব্দ বন্ধ করতে।</string>
+    <string name="help_sound_title">শব্দ সেটিংয়ের ব্যাখ্যা</string>
+    <string name="help_sound_play">প্রতিটি শব্দ সংশ্লিষ্ট \'চালান\' বোতামে ক্লিক করে বাজে, তার উপরে শব্দের নাম থাকে। একই বোতামে আবার ক্লিক করলে শব্দ বন্ধ হয়; মিক্সার বাজলে বোতামে \'বন্ধ\' লেখা থাকে।</string>
+    <string name="help_sound_volume">স্লাইডার বামে বা ডানে সরিয়ে প্রতিটি শব্দের ভলিউম ঠিক করুন।</string>
+    <string name="help_sound_delay">কিছু শব্দে ভলিউম সীমা ও বিলম্ব সীমার বিকল্প থাকে। বিলম্ব স্লাইডার বামে বা ডানে সরালে ছোট শব্দ ফাইলের একটি এলোমেলো নির্বাচন আপনার বেছে নেওয়া সেকেন্ড বিলম্বে বাজবে।</string>
+    <string name="help_sound_default">\'ডিফল্ট সেটিং\' বোতামে ক্লিক করুন প্রস্তাবিত সেটিংসে একটি প্রস্তাবিত শব্দসেট চালাতে।</string>
+    <string name="help_sound_stop_all">স্ক্রিনের উপরে \'সব শব্দ বন্ধ\' বোতামে ক্লিক করলে সেই শব্দ বিভাগের সব বাজা শব্দ বন্ধ হবে।</string>
+    <string name="help_alarm_title">অ্যালার্ম নিয়ন্ত্রণের ব্যাখ্যা</string>
+    <string name="help_alarm_current_time">\'বর্তমান সময়\' লেবেলটি আপনাকে এখনকার সময় দেখাচ্ছে।</string>
+    <string name="help_alarm_set">অ্যালার্ম সেট করতে: 1 যে শব্দগুলো শুনতে চান সেগুলো কাঙ্ক্ষিত ভলিউম ও বিলম্বে চালান। 2 তারপর স্ক্রিনের নিচে \'সময় ও তারিখ চাকা\' দিয়ে অ্যালার্মের সময় ও তারিখ বেছে নিন। 3 \'অ্যালার্ম সেট করুন\' বোতামে ক্লিক করুন। শব্দ বন্ধ হবে এবং আপনার সেট করা অ্যালার্মের সময় \'অ্যালার্মের সময়\' লেবেলে দেখাবে। শব্দ ও সেটিং সংরক্ষিত হয় এবং অ্যালার্মের সময় এলে আবার বাজে।</string>
+    <string name="help_alarm_snooze">\'স্নুজ বোতাম\'-এ ক্লিক করলে অ্যালার্ম সাময়িকভাবে নীরব হয়। নির্বাচিত স্নুজ সময় শেষ হলে অ্যালার্ম ফিরে আসে।</string>
+    <string name="help_alarm_alarm_time">\'অ্যালার্মের সময়\' লেবেল নির্বাচিত অ্যালার্মের সময় দেখাবে। লেবেলে ক্লিক করলে অ্যালার্মের শব্দ ও অ্যালার্ম কাজ বন্ধ হবে।</string>
+    <string name="help_alarm_wheel">\'সময় ও তারিখ চাকা\' দিয়ে \'অ্যালার্ম সেট করুন\'-এ ক্লিক করার আগে অ্যালার্মের তারিখ ও সময় বেছে নিন।</string>
+    <string name="help_timer_title">টাইমার নিয়ন্ত্রণের ব্যাখ্যা</string>
+    <string name="help_timer_keypad">কিপ্যাডের সংখ্যা কী দিয়ে সেই সময় লিখুন যেখান থেকে টাইমার কাউন্টডাউন করবে।</string>
+    <string name="help_timer_delete">সংখ্যা মুছতে \'মুছুন\' বোতাম ব্যবহার করুন।</string>
+    <string name="help_timer_controls">\'শুরু\' বোতামে ক্লিক করে টাইমার চালু করুন। টাইমার শূন্যে পৌঁছালে সব শব্দ বন্ধ হবে। \'বিরতি\' বোতাম টাইমার থামায় এবং আবার \'শুরু\'-তে ক্লিক করলে চালু হয়। সময় মুছতে \'রিসেট\' বোতামে ক্লিক করুন।</string>
+</resources>

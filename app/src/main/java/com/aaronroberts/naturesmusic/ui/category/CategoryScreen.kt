@@ -25,11 +25,13 @@ import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.aaronroberts.naturesmusic.NaturesMusicApplication
+import com.aaronroberts.naturesmusic.R
 import com.aaronroberts.naturesmusic.data.SoundCatalog
 import com.aaronroberts.naturesmusic.data.SoundCategory
 import com.aaronroberts.naturesmusic.playback.PlayStatus
@@ -79,7 +81,7 @@ fun CategoryScreen(
                 ),
         )
         ScreenScaffold(
-            title = category.title,
+            title = stringResource(category.titleRes),
             modifier = Modifier.fillMaxSize(),
             useColorBackground = false,
         ) {
@@ -91,7 +93,7 @@ fun CategoryScreen(
                 verticalAlignment = Alignment.CenterVertically,
             ) {
                 PillButton(
-                    label = "Main Menu",
+                    label = stringResource(R.string.main_menu),
                     onClick = onBack,
                     fillMaxWidth = false,
                     height = 44.dp,
@@ -101,21 +103,21 @@ fun CategoryScreen(
             }
             if (showDefaultSetting) {
                 PillButton(
-                    label = "Default Setting",
+                    label = stringResource(R.string.default_setting),
                     onClick = { engine.applyDefaultSetting(category) },
                     height = 48.dp,
                     modifier = Modifier.padding(bottom = 8.dp),
                 )
             }
             PillButton(
-                label = "Stop All Sounds",
+                label = stringResource(R.string.stop_all_sounds),
                 onClick = { engine.stopCategory(category) },
                 height = 48.dp,
                 modifier = Modifier.padding(bottom = 12.dp),
             )
             if (othersPlaying) {
                 Text(
-                    text = "Other sounds are still in the mix.",
+                    text = stringResource(R.string.other_sounds_in_mix),
                     color = Ink,
                     fontSize = 14.sp,
                     fontWeight = FontWeight.Normal,
@@ -131,7 +133,7 @@ fun CategoryScreen(
                         delaySeconds = track.defaultDelaySeconds.coerceAtLeast(1),
                     )
                     TrackMixerRow(
-                        name = track.displayName,
+                        name = stringResource(track.displayNameRes),
                         playback = playback,
                         onToggle = { engine.toggle(track.id) },
                         onVolume = { engine.setVolume(track.id, it) },

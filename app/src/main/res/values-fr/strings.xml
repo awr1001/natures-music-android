@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Nature\'s Music</string>
+    <string name="playback_channel_name">Lecture des sons</string>
+    <string name="playback_channel_desc">Affiché pendant que les sons de la nature sont mixés en arrière-plan.</string>
+    <string name="alarm_channel_name">Alarme</string>
+    <string name="alarm_channel_desc">Vous réveille à l\'heure que vous réglez.</string>
+    <string name="playback_notification_title">Nature\'s Music</string>
+    <string name="playback_notification_text">Les sons sont en lecture</string>
+    <string name="stop">Arrêter</string>
+    <string name="dismiss">Ignorer</string>
+    <string name="snooze">Répéter</string>
+    <string name="alarm_stop">Arrêter l\'alarme</string>
+    <string name="alarm_notification_title">Alarme activée</string>
+
+    <!-- Categories -->
+    <string name="category_ocean">Son de l\'océan</string>
+    <string name="category_lake">Son du lac</string>
+    <string name="category_river">Son de la rivière</string>
+    <string name="category_storm">Son d\'orage</string>
+    <string name="category_city">Son de la ville</string>
+    <string name="category_extra">Sons supplémentaires</string>
+    <!-- Sounds -->
+    <string name="sound_wind">Vent</string>
+    <string name="sound_seagulls">Mouettes</string>
+    <string name="sound_waves_a">Vagues A</string>
+    <string name="sound_waves_b">Vagues B</string>
+    <string name="sound_waves_c">Vagues C</string>
+    <string name="sound_waves_d">Vagues D</string>
+    <string name="sound_birds">Oiseaux</string>
+    <string name="sound_loons">Plongeons</string>
+    <string name="sound_river_a">Rivière A</string>
+    <string name="sound_river_b">Rivière B</string>
+    <string name="sound_river_c">Rivière C</string>
+    <string name="sound_rain_a">Pluie A</string>
+    <string name="sound_rain_b">Pluie B</string>
+    <string name="sound_rain_c">Pluie C</string>
+    <string name="sound_thunder_a">Tonnerre A</string>
+    <string name="sound_thunder_b">Tonnerre B</string>
+    <string name="sound_city_a">Ville A</string>
+    <string name="sound_traffic_a">Trafic A</string>
+    <string name="sound_traffic_b">Trafic B</string>
+    <string name="sound_trains">Trains</string>
+    <string name="sound_industrial_a">Industriel A</string>
+    <string name="sound_industrial_b">Industriel B</string>
+    <string name="sound_steam_punk">Steampunk</string>
+    <string name="sound_campfire">Feu de camp</string>
+    <string name="sound_crickets_a">Grillons A</string>
+    <string name="sound_crickets_b">Grillons B</string>
+    <string name="sound_fly">Mouche</string>
+    <string name="sound_frogs">Grenouilles</string>
+    <string name="sound_bomber">Bombardier</string>
+    <string name="sound_bell">Cloche</string>
+    <!-- Screens and buttons -->
+    <string name="alarm">Alarme</string>
+    <string name="timer">Minuteur</string>
+    <string name="stop_all_sounds">Arrêter tous les sons</string>
+    <string name="main_menu">Menu principal</string>
+    <string name="default_setting">Réglage par défaut</string>
+    <string name="pause">Pause</string>
+    <string name="start">Démarrer</string>
+    <string name="reset">Réinitialiser</string>
+    <string name="delete">Supprimer</string>
+    <string name="set_alarm">Régler l\'alarme</string>
+    <string name="play">Lecture</string>
+    <string name="starting">Démarrage…</string>
+    <string name="try_again">Réessayer</string>
+    <string name="other_sounds_in_mix">D\'autres sons sont encore dans le mix.</string>
+    <string name="current_time">Heure actuelle</string>
+    <string name="alarm_time">Heure de l\'alarme</string>
+    <string name="empty_mix_message">Lancez les sons avec lesquels vous voulez vous réveiller, puis réglez l\'alarme.</string>
+    <string name="alarm_active">Alarme active</string>
+    <string name="snoozed">Répétée...</string>
+    <string name="wheel_today">Aujourd\'hui</string>
+    <string name="wheel_tomorrow">Demain</string>
+    <string name="wheel_am">AM</string>
+    <string name="wheel_pm">PM</string>
+    <string name="your_mix">Votre mix</string>
+    <string name="error_couldnt_start">Impossible de lancer ce son</string>
+    <string name="help_return">Retour</string>
+    <!-- Formatted labels -->
+    <string name="volume_percent">Volume  %1$d%%</string>
+    <string name="delay_seconds">Délai  %1$d</string>
+    <string name="snooze_minutes">%1$d min</string>
+    <string name="error_couldnt_start_code">Impossible de lancer ce son (%1$d/%2$d)</string>
+    <!-- Help -->
+    <string name="help_demo_video">* Une vidéo de démonstration peut être vue en touchant le bouton du lien YouTube ci-dessous *</string>
+    <string name="help_main_menu_title">Menu principal expliqué</string>
+    <string name="help_main_menu_categories">Cliquez sur le bouton portant le nom de la catégorie de son que vous voulez entendre pour afficher les options de son.</string>
+    <string name="help_main_menu_stop_all">Cliquez sur le bouton \'Arrêter tous les sons\' pour arrêter tous les sons en lecture dans toute l\'app.</string>
+    <string name="help_sound_title">Réglages du son expliqués</string>
+    <string name="help_sound_play">Chaque son est lu en cliquant sur le bouton \'Lecture\' correspondant, au-dessus duquel le nom du son est affiché. Le son s\'arrête en cliquant de nouveau sur le même bouton, qui indique \'Arrêter\' pendant que le mixeur joue.</string>
+    <string name="help_sound_volume">Réglez le volume de chaque son en déplaçant le curseur vers la gauche ou la droite.</string>
+    <string name="help_sound_delay">Certains sons proposent des options de plage de volume et de plage de délai. Déplacer le curseur de délai vers la gauche ou la droite définit une sélection aléatoire de courts fichiers sonores lus avec un délai, en secondes, que vous choisissez.</string>
+    <string name="help_sound_default">Cliquez sur le bouton \'Réglage par défaut\' pour lire un ensemble de sons suggéré avec les réglages recommandés.</string>
+    <string name="help_sound_stop_all">Cliquer sur le bouton \'Arrêter tous les sons\' en haut de l\'écran arrête tous les sons en lecture pour la catégorie de son.</string>
+    <string name="help_alarm_title">Commandes de l\'alarme expliquées</string>
+    <string name="help_alarm_current_time">L\'étiquette \'Heure actuelle\' vous affiche l\'heure présente.</string>
+    <string name="help_alarm_set">Pour régler l\'alarme : 1 Lisez tous les sons que vous voulez entendre avec le volume et le délai souhaités. 2 Sélectionnez ensuite l\'heure et la date de l\'alarme avec la \'Molette d\'heure et de date\' en bas de l\'écran. 3 Cliquez sur le bouton \'Régler l\'alarme\'. Les sons s\'arrêteront et l\'heure d\'alarme que vous avez réglée s\'affichera sur l\'étiquette \'Heure de l\'alarme\'. Les sons et les réglages sont enregistrés et relus lorsque l\'heure de l\'alarme arrive.</string>
+    <string name="help_alarm_snooze">Cliquer sur le \'Bouton Répéter\' met temporairement l\'alarme en silence. L\'alarme reviendra à la fin du temps de répétition sélectionné.</string>
+    <string name="help_alarm_alarm_time">L\'étiquette \'Heure de l\'alarme\' affiche l\'heure d\'alarme sélectionnée. Cliquer sur l\'étiquette arrête les sons de l\'alarme et la fonction d\'alarme.</string>
+    <string name="help_alarm_wheel">La \'Molette d\'heure et de date\' sert à sélectionner la date et l\'heure de l\'alarme avant de cliquer sur \'Régler l\'alarme\'.</string>
+    <string name="help_timer_title">Commandes du minuteur expliquées</string>
+    <string name="help_timer_keypad">Utilisez les touches numériques du pavé pour saisir le temps à partir duquel le minuteur doit compter à rebours.</string>
+    <string name="help_timer_delete">Utilisez le bouton \'Supprimer\' pour effacer les chiffres.</string>
+    <string name="help_timer_controls">Cliquez sur le bouton \'Démarrer\' pour lancer le minuteur. Lorsque le minuteur atteint zéro, tous les sons sont arrêtés. Le bouton \'Pause\' arrête le minuteur ; il peut être relancé en cliquant de nouveau sur \'Démarrer\'. Cliquez sur le bouton \'Réinitialiser\' pour effacer le temps.</string>
+</resources>
